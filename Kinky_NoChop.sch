@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Kinky_NoChop-cache
 EELAYER 26 0
 EELAYER END
 $Descr A1 33110 23386
@@ -59,12 +58,12 @@ F 3 "" H 20500 4100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R1
+L Device:R R1
 U 1 1 5BB1181E
 P 1700 2250
 F 0 "R1" V 1493 2250 50  0000 C CNN
 F 1 "100k" V 1584 2250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1630 2250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 1630 2250 50  0001 C CNN
 F 3 "" H 1700 2250 50  0001 C CNN
 	1    1700 2250
 	0    1    1    0   
@@ -85,12 +84,12 @@ Wire Wire Line
 Wire Wire Line
 	1350 2350 1350 2450
 $Comp
-L 4ms-passives:R R7
+L Device:R R7
 U 1 1 5BB118C2
 P 1950 2500
 F 0 "R7" H 1880 2454 50  0000 R CNN
 F 1 "43k" H 1880 2545 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1880 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 1880 2500 50  0001 C CNN
 F 3 "" H 1950 2500 50  0001 C CNN
 	1    1950 2500
 	-1   0    0    1   
@@ -122,12 +121,12 @@ Wire Wire Line
 Wire Wire Line
 	2200 2900 2200 3000
 $Comp
-L 4ms-passives:R R2
+L Device:R R2
 U 1 1 5BB119A4
 P 1700 3150
 F 0 "R2" V 1800 3150 50  0000 C CNN
 F 1 "100k" V 1584 3150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1630 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 1630 3150 50  0001 C CNN
 F 3 "" H 1700 3150 50  0001 C CNN
 	1    1700 3150
 	0    1    1    0   
@@ -162,12 +161,12 @@ Wire Wire Line
 	2550 2450 2650 2450
 Connection ~ 1950 3150
 $Comp
-L 4ms-passives:R R14
+L Device:R R14
 U 1 1 5BB1206C
 P 3100 1800
 F 0 "R14" V 3200 1800 50  0000 C CNN
 F 1 "100k" V 2984 1800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3030 1800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3030 1800 50  0001 C CNN
 F 3 "" H 3100 1800 50  0001 C CNN
 	1    3100 1800
 	0    1    1    0   
@@ -208,12 +207,12 @@ Wire Wire Line
 Wire Wire Line
 	3350 2350 3250 2350
 $Comp
-L 4ms-passives:R R13
+L Device:R R13
 U 1 1 5BB12506
 P 3000 1400
 F 0 "R13" V 2793 1400 50  0000 C CNN
 F 1 "120k" V 2884 1400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2930 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 2930 1400 50  0001 C CNN
 F 3 "" H 3000 1400 50  0001 C CNN
 	1    3000 1400
 	0    1    1    0   
@@ -254,34 +253,34 @@ $EndComp
 Wire Wire Line
 	2850 1400 2750 1400
 $Comp
-L 4ms-passives:R R23
+L Device:R R23
 U 1 1 5BB12B9D
 P 3850 1150
 F 0 "R23" H 3780 1104 50  0000 R CNN
 F 1 "1M" H 3780 1195 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3780 1150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3780 1150 50  0001 C CNN
 F 3 "" H 3850 1150 50  0001 C CNN
 	1    3850 1150
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R19
+L Device:R R19
 U 1 1 5BB12E64
 P 3600 900
 F 0 "R19" V 3393 900 50  0000 C CNN
 F 1 "82k" V 3484 900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3530 900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3530 900 50  0001 C CNN
 F 3 "" H 3600 900 50  0001 C CNN
 	1    3600 900 
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:R R27
+L Device:R R27
 U 1 1 5BB12E9A
 P 4100 900
 F 0 "R27" V 3893 900 50  0000 C CNN
 F 1 "100k" V 3984 900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4030 900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 4030 900 50  0001 C CNN
 F 3 "" H 4100 900 50  0001 C CNN
 	1    4100 900 
 	0    1    1    0   
@@ -324,12 +323,12 @@ Wire Wire Line
 Wire Wire Line
 	4350 900  4250 900 
 $Comp
-L 4ms-passives:R R20
+L Device:R R20
 U 1 1 5BB13CEA
 P 3600 2350
 F 0 "R20" V 3700 2350 50  0000 C CNN
 F 1 "100k" V 3484 2350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3530 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3530 2350 50  0001 C CNN
 F 3 "" H 3600 2350 50  0001 C CNN
 	1    3600 2350
 	0    1    1    0   
@@ -365,12 +364,12 @@ Wire Wire Line
 Wire Wire Line
 	4000 2550 4000 2650
 $Comp
-L 4ms-passives:R R31
+L Device:R R31
 U 1 1 5BB1723B
 P 4550 1950
 F 0 "R31" V 4650 1950 50  0000 C CNN
 F 1 "100k" V 4434 1950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4480 1950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 4480 1950 50  0001 C CNN
 F 3 "" H 4550 1950 50  0001 C CNN
 	1    4550 1950
 	0    1    1    0   
@@ -404,12 +403,12 @@ Wire Wire Line
 Wire Wire Line
 	1350 3600 1350 3700
 $Comp
-L 4ms-passives:R R3
+L Device:R R3
 U 1 1 5BB18F63
 P 1700 3500
 F 0 "R3" V 1493 3500 50  0000 C CNN
 F 1 "100k" V 1584 3500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1630 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 1630 3500 50  0001 C CNN
 F 3 "" H 1700 3500 50  0001 C CNN
 	1    1700 3500
 	0    1    1    0   
@@ -421,12 +420,12 @@ Wire Wire Line
 Wire Wire Line
 	3850 3500 3850 2350
 $Comp
-L 4ms-passives:R R34
+L Device:R R34
 U 1 1 5BB1A2C4
 P 5050 2450
 F 0 "R34" V 5150 2450 50  0000 C CNN
 F 1 "200k" V 4934 2450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4980 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 4980 2450 50  0001 C CNN
 F 3 "" H 5050 2450 50  0001 C CNN
 	1    5050 2450
 	0    1    1    0   
@@ -435,12 +434,12 @@ Wire Wire Line
 	4800 2450 4900 2450
 Connection ~ 4800 2450
 $Comp
-L 4ms-passives:R R38
+L Device:R R38
 U 1 1 5BB1B72C
 P 5950 1950
 F 0 "R38" V 6050 1950 50  0000 C CNN
 F 1 "100k" V 5834 1950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5880 1950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 5880 1950 50  0001 C CNN
 F 3 "" H 5950 1950 50  0001 C CNN
 	1    5950 1950
 	0    1    1    0   
@@ -495,12 +494,12 @@ F 3 "" H 5700 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R39
+L Device:R R39
 U 1 1 5BB1DCD9
 P 5600 3650
 F 0 "R39" V 5700 3650 50  0000 C CNN
 F 1 "100k" V 5484 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5530 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 5530 3650 50  0001 C CNN
 F 3 "" H 5600 3650 50  0001 C CNN
 	1    5600 3650
 	0    1    1    0   
@@ -508,12 +507,12 @@ $EndComp
 Wire Wire Line
 	5350 3650 5450 3650
 $Comp
-L 4ms-passives:R R45
+L Device:R R45
 U 1 1 5BB1EC8A
 P 5850 3900
 F 0 "R45" V 5950 3900 50  0000 C CNN
 F 1 "560R" V 5734 3900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5780 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 5780 3900 50  0001 C CNN
 F 3 "" H 5850 3900 50  0001 C CNN
 	1    5850 3900
 	-1   0    0    1   
@@ -571,12 +570,12 @@ F 3 "" H 5050 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R37
+L Device:R R37
 U 1 1 5BB20C77
 P 5450 4400
 F 0 "R37" V 5550 4400 50  0000 C CNN
 F 1 "1M" V 5334 4400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5380 4400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 5380 4400 50  0001 C CNN
 F 3 "" H 5450 4400 50  0001 C CNN
 	1    5450 4400
 	0    1    1    0   
@@ -615,12 +614,12 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 6600 3575 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R44
+L Device:R R44
 U 1 1 5BB273B7
 P 6200 3300
 F 0 "R44" V 6300 3300 50  0000 C CNN
 F 1 "560R" V 6084 3300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6130 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6130 3300 50  0001 C CNN
 F 3 "" H 6200 3300 50  0001 C CNN
 	1    6200 3300
 	0    -1   -1   0   
@@ -647,12 +646,12 @@ Wire Wire Line
 Wire Wire Line
 	5950 3300 5950 3200
 $Comp
-L 4ms-passives:R R50
+L Device:R R50
 U 1 1 5BB2B323
 P 6450 2550
 F 0 "R50" V 6550 2550 50  0000 C CNN
 F 1 "30k" V 6334 2550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6380 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6380 2550 50  0001 C CNN
 F 3 "" H 6450 2550 50  0001 C CNN
 	1    6450 2550
 	0    1    1    0   
@@ -685,12 +684,12 @@ $EndComp
 Wire Wire Line
 	6700 2550 6600 2550
 $Comp
-L 4ms-passives:R R55
+L Device:R R55
 U 1 1 5BB2E065
 P 7350 2550
 F 0 "R55" V 7450 2550 50  0000 C CNN
 F 1 "20k" V 7234 2550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7280 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 7280 2550 50  0001 C CNN
 F 3 "" H 7350 2550 50  0001 C CNN
 	1    7350 2550
 	0    1    1    0   
@@ -739,12 +738,12 @@ $EndComp
 Wire Wire Line
 	7200 3550 7800 3550
 $Comp
-L 4ms-passives:R R58
+L Device:R R58
 U 1 1 5BB35975
 P 8300 3100
 F 0 "R58" V 8400 3100 50  0000 C CNN
 F 1 "100k" V 8184 3100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8230 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 8230 3100 50  0001 C CNN
 F 3 "" H 8300 3100 50  0001 C CNN
 	1    8300 3100
 	0    1    1    0   
@@ -777,12 +776,12 @@ Wire Wire Line
 	8550 3650 8550 3750
 Connection ~ 8550 3650
 $Comp
-L 4ms-passives:R R61
+L Device:R R61
 U 1 1 5BB3ACC6
 P 9050 3650
 F 0 "R61" V 8850 3650 50  0000 C CNN
 F 1 "100k" V 8934 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8980 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 8980 3650 50  0001 C CNN
 F 3 "" H 9050 3650 50  0001 C CNN
 	1    9050 3650
 	0    1    1    0   
@@ -812,12 +811,12 @@ F 3 "" H 9800 4050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R62
+L Device:R R62
 U 1 1 5BB3E7A7
 P 9050 3850
 F 0 "R62" V 9150 3850 50  0000 C CNN
 F 1 "100k" V 9250 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8980 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 8980 3850 50  0001 C CNN
 F 3 "" H 9050 3850 50  0001 C CNN
 	1    9050 3850
 	0    1    1    0   
@@ -834,12 +833,12 @@ Wire Wire Line
 Wire Wire Line
 	9200 3650 9500 3650
 $Comp
-L 4ms-passives:R R67
+L Device:R R67
 U 1 1 5BB48660
 P 10050 3150
 F 0 "R67" V 9850 3150 50  0000 C CNN
 F 1 "100k" V 9934 3150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9980 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 9980 3150 50  0001 C CNN
 F 3 "" H 10050 3150 50  0001 C CNN
 	1    10050 3150
 	0    1    1    0   
@@ -857,17 +856,6 @@ Wire Wire Line
 	10300 3150 10300 3750
 Wire Wire Line
 	10300 3750 10200 3750
-$Comp
-L 4ms-passives:D D1
-U 1 1 5BB4CCCD
-P 9250 4200
-F 0 "D1" V 9300 4350 50  0000 R CNN
-F 1 "1N4148" V 9200 4550 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 9250 4200 50  0001 C CNN
-F 3 "" H 9250 4200 50  0001 C CNN
-	1    9250 4200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	9250 4050 9250 3850
 Connection ~ 9250 3850
@@ -905,45 +893,45 @@ Connection ~ 9350 4850
 Wire Wire Line
 	9350 4850 9450 4850
 $Comp
-L 4ms-passives:D D2
+L Diode:1N4148 D2
 U 1 1 5BB5BC5D
 P 9250 4600
 F 0 "D2" V 9300 4750 50  0000 R CNN
 F 1 "1N4148" V 9200 4950 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 9250 4600 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9250 4600 50  0001 C CNN
 F 3 "" H 9250 4600 50  0001 C CNN
 	1    9250 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4ms-passives:D D4
+L Diode:1N4148 D4
 U 1 1 5BB5BCC7
 P 9450 4600
 F 0 "D4" V 9400 4750 50  0000 R CNN
 F 1 "1N4148" V 9500 4950 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 9450 4600 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9450 4600 50  0001 C CNN
 F 3 "" H 9450 4600 50  0001 C CNN
 	1    9450 4600
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:D D3
+L Diode:1N4148 D3
 U 1 1 5BB5BD87
 P 9450 4200
 F 0 "D3" V 9400 4350 50  0000 R CNN
 F 1 "1N4148" V 9500 4550 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 9450 4200 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9450 4200 50  0001 C CNN
 F 3 "" H 9450 4200 50  0001 C CNN
 	1    9450 4200
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:R R70
+L Device:R R70
 U 1 1 5BB5C141
 P 10800 3750
 F 0 "R70" V 10600 3750 50  0000 C CNN
 F 1 "100k" V 10684 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10730 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 10730 3750 50  0001 C CNN
 F 3 "" H 10800 3750 50  0001 C CNN
 	1    10800 3750
 	0    1    1    0   
@@ -973,12 +961,12 @@ F 3 "" H 11550 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R71
+L Device:R R71
 U 1 1 5BB5C15A
 P 10800 3950
 F 0 "R71" V 10900 3950 50  0000 C CNN
 F 1 "100k" V 11000 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10730 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 10730 3950 50  0001 C CNN
 F 3 "" H 10800 3950 50  0001 C CNN
 	1    10800 3950
 	0    1    1    0   
@@ -995,12 +983,12 @@ Wire Wire Line
 Wire Wire Line
 	10950 3750 11250 3750
 $Comp
-L 4ms-passives:R R76
+L Device:R R76
 U 1 1 5BB5C166
 P 11800 3250
 F 0 "R76" V 11600 3250 50  0000 C CNN
 F 1 "100k" V 11684 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 11730 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 11730 3250 50  0001 C CNN
 F 3 "" H 11800 3250 50  0001 C CNN
 	1    11800 3250
 	0    1    1    0   
@@ -1019,12 +1007,12 @@ Wire Wire Line
 Wire Wire Line
 	12050 3850 11950 3850
 $Comp
-L 4ms-passives:D D13
+L Diode:1N4148 D13
 U 1 1 5BB5C173
 P 11000 4300
 F 0 "D13" V 11050 4450 50  0000 R CNN
 F 1 "1N4148" V 10950 4650 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11000 4300 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11000 4300 50  0001 C CNN
 F 3 "" H 11000 4300 50  0001 C CNN
 	1    11000 4300
 	0    -1   -1   0   
@@ -1066,57 +1054,57 @@ Connection ~ 11100 5350
 Wire Wire Line
 	11100 5350 11200 5350
 $Comp
-L 4ms-passives:D D14
+L Diode:1N4148 D14
 U 1 1 5BB5C18D
 P 11000 4700
 F 0 "D14" V 11050 4850 50  0000 R CNN
 F 1 "1N4148" V 10950 5050 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11000 4700 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11000 4700 50  0001 C CNN
 F 3 "" H 11000 4700 50  0001 C CNN
 	1    11000 4700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4ms-passives:D D17
+L Diode:1N4148 D17
 U 1 1 5BB5C193
 P 11200 4700
 F 0 "D17" V 11150 4850 50  0000 R CNN
 F 1 "1N4148" V 11250 5050 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11200 4700 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11200 4700 50  0001 C CNN
 F 3 "" H 11200 4700 50  0001 C CNN
 	1    11200 4700
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:D D16
+L Diode:1N4148 D16
 U 1 1 5BB5C199
 P 11200 4300
 F 0 "D16" V 11150 4450 50  0000 R CNN
 F 1 "1N4148" V 11250 4650 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11200 4300 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11200 4300 50  0001 C CNN
 F 3 "" H 11200 4300 50  0001 C CNN
 	1    11200 4300
 	0    1    1    0   
 $EndComp
 Connection ~ 10300 3750
 $Comp
-L 4ms-passives:D D15
+L Diode:1N4148 D15
 U 1 1 5BB678E1
 P 11000 5100
 F 0 "D15" V 11050 5250 50  0000 R CNN
 F 1 "1N4148" V 10950 5450 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11000 5100 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11000 5100 50  0001 C CNN
 F 3 "" H 11000 5100 50  0001 C CNN
 	1    11000 5100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4ms-passives:D D18
+L Diode:1N4148 D18
 U 1 1 5BB678E7
 P 11200 5100
 F 0 "D18" V 11150 5250 50  0000 R CNN
 F 1 "1N4148" V 11250 5450 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11200 5100 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11200 5100 50  0001 C CNN
 F 3 "" H 11200 5100 50  0001 C CNN
 	1    11200 5100
 	0    1    1    0   
@@ -1126,12 +1114,12 @@ Wire Wire Line
 Wire Wire Line
 	11200 4950 11200 4850
 $Comp
-L 4ms-passives:R R79
+L Device:R R79
 U 1 1 5BB76AC8
 P 12550 3850
 F 0 "R79" V 12350 3850 50  0000 C CNN
 F 1 "100k" V 12434 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12480 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 12480 3850 50  0001 C CNN
 F 3 "" H 12550 3850 50  0001 C CNN
 	1    12550 3850
 	0    1    1    0   
@@ -1161,12 +1149,12 @@ F 3 "" H 13300 4250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R80
+L Device:R R80
 U 1 1 5BB76AE1
 P 12550 4050
 F 0 "R80" V 12650 4050 50  0000 C CNN
 F 1 "100k" V 12750 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12480 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 12480 4050 50  0001 C CNN
 F 3 "" H 12550 4050 50  0001 C CNN
 	1    12550 4050
 	0    1    1    0   
@@ -1183,12 +1171,12 @@ Wire Wire Line
 Wire Wire Line
 	12700 3850 13000 3850
 $Comp
-L 4ms-passives:R R85
+L Device:R R85
 U 1 1 5BB76AED
 P 13550 3350
 F 0 "R85" V 13350 3350 50  0000 C CNN
 F 1 "100k" V 13434 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13480 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 13480 3350 50  0001 C CNN
 F 3 "" H 13550 3350 50  0001 C CNN
 	1    13550 3350
 	0    1    1    0   
@@ -1207,12 +1195,12 @@ Wire Wire Line
 Wire Wire Line
 	13800 3950 13700 3950
 $Comp
-L 4ms-passives:D D31
+L Diode:1N4148 D31
 U 1 1 5BB76AFA
 P 12750 4400
 F 0 "D31" V 12800 4550 50  0000 R CNN
 F 1 "1N4148" V 12700 4750 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 12750 4400 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12750 4400 50  0001 C CNN
 F 3 "" H 12750 4400 50  0001 C CNN
 	1    12750 4400
 	0    -1   -1   0   
@@ -1250,12 +1238,12 @@ Connection ~ 12850 4650
 Wire Wire Line
 	12850 4650 12950 4650
 $Comp
-L 4ms-passives:D D32
+L Diode:1N4148 D32
 U 1 1 5BB76B20
 P 12950 4400
 F 0 "D32" V 12900 4550 50  0000 R CNN
 F 1 "1N4148" V 13000 4750 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 12950 4400 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12950 4400 50  0001 C CNN
 F 3 "" H 12950 4400 50  0001 C CNN
 	1    12950 4400
 	0    1    1    0   
@@ -1263,23 +1251,23 @@ $EndComp
 Connection ~ 13800 3950
 Connection ~ 12050 3850
 $Comp
-L 4ms-passives:R R88
+L Device:R R88
 U 1 1 5BB8B9BB
 P 14550 3950
 F 0 "R88" V 14350 3950 50  0000 C CNN
 F 1 "100k" V 14434 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 14480 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 14480 3950 50  0001 C CNN
 F 3 "" H 14550 3950 50  0001 C CNN
 	1    14550 3950
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:R R89
+L Device:R R89
 U 1 1 5BB8B9D4
 P 14550 4150
 F 0 "R89" V 14650 4150 50  0000 C CNN
 F 1 "100k" V 14750 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 14480 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 14480 4150 50  0001 C CNN
 F 3 "" H 14550 4150 50  0001 C CNN
 	1    14550 4150
 	0    1    1    0   
@@ -1296,12 +1284,12 @@ Wire Wire Line
 Wire Wire Line
 	14700 3950 15000 3950
 $Comp
-L 4ms-passives:R R94
+L Device:R R94
 U 1 1 5BB8B9E0
 P 15550 3450
 F 0 "R94" V 15350 3450 50  0000 C CNN
 F 1 "100k" V 15434 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 15480 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 15480 3450 50  0001 C CNN
 F 3 "" H 15550 3450 50  0001 C CNN
 	1    15550 3450
 	0    1    1    0   
@@ -1320,12 +1308,12 @@ Wire Wire Line
 Wire Wire Line
 	15800 4050 15700 4050
 $Comp
-L 4ms-passives:D D37
+L Diode:1N4148 D37
 U 1 1 5BB8B9ED
 P 14750 4500
 F 0 "D37" V 14800 4650 50  0000 R CNN
 F 1 "1N4148" V 14700 4850 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 14750 4500 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14750 4500 50  0001 C CNN
 F 3 "" H 14750 4500 50  0001 C CNN
 	1    14750 4500
 	0    -1   -1   0   
@@ -1363,12 +1351,12 @@ Connection ~ 14850 4750
 Wire Wire Line
 	14850 4750 14950 4750
 $Comp
-L 4ms-passives:D D38
+L Diode:1N4148 D38
 U 1 1 5BB8BA05
 P 14950 4500
 F 0 "D38" V 14900 4650 50  0000 R CNN
 F 1 "1N4148" V 15000 4850 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 14950 4500 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14950 4500 50  0001 C CNN
 F 3 "" H 14950 4500 50  0001 C CNN
 	1    14950 4500
 	0    1    1    0   
@@ -1379,12 +1367,12 @@ Connection ~ 15800 4050
 Wire Wire Line
 	13800 3950 14300 3950
 $Comp
-L 4ms-passives:D D44
+L Diode:1N4148 D44
 U 1 1 5BB92348
 P 15400 3150
 F 0 "D44" H 15350 3050 50  0000 R CNN
 F 1 "1N4148" H 15550 3250 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 15400 3150 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15400 3150 50  0001 C CNN
 F 3 "" H 15400 3150 50  0001 C CNN
 	1    15400 3150
 	1    0    0    -1  
@@ -1394,12 +1382,12 @@ Wire Wire Line
 Wire Wire Line
 	15550 3150 15800 3150
 $Comp
-L 4ms-passives:D D43
+L Diode:1N4148 D43
 U 1 1 5BBA0088
 P 15400 2850
 F 0 "D43" H 15350 2750 50  0000 R CNN
 F 1 "1N4148" H 15550 2950 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 15400 2850 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15400 2850 50  0001 C CNN
 F 3 "" H 15400 2850 50  0001 C CNN
 	1    15400 2850
 	-1   0    0    1   
@@ -1421,12 +1409,12 @@ Wire Wire Line
 	15800 3150 15800 3450
 Connection ~ 15800 3450
 $Comp
-L 4ms-passives:R R97
+L Device:R R97
 U 1 1 5BBC3B22
 P 16200 4050
 F 0 "R97" V 16000 4050 50  0000 C CNN
 F 1 "10k" V 16084 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 16130 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 16130 4050 50  0001 C CNN
 F 3 "" H 16200 4050 50  0001 C CNN
 	1    16200 4050
 	0    1    1    0   
@@ -1473,12 +1461,12 @@ Wire Wire Line
 Wire Wire Line
 	17000 3550 17000 3450
 $Comp
-L 4ms-passives:R R100
+L Device:R R100
 U 1 1 5BBEF00A
 P 17000 3800
 F 0 "R100" V 16800 3800 50  0000 C CNN
 F 1 "1M" V 16884 3800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 16930 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 16930 3800 50  0001 C CNN
 F 3 "" H 17000 3800 50  0001 C CNN
 	1    17000 3800
 	0    1    1    0   
@@ -1549,12 +1537,12 @@ Wire Wire Line
 Wire Wire Line
 	17250 4250 17250 4350
 $Comp
-L 4ms-passives:R R103
+L Device:R R103
 U 1 1 5BC106E2
 P 17800 3650
 F 0 "R103" V 17600 3650 50  0000 C CNN
 F 1 "300k" V 17684 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 17730 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 17730 3650 50  0001 C CNN
 F 3 "" H 17800 3650 50  0001 C CNN
 	1    17800 3650
 	0    1    1    0   
@@ -1578,12 +1566,12 @@ Connection ~ 17250 3800
 Wire Wire Line
 	17250 3800 17250 4050
 $Comp
-L 4ms-passives:C C1
+L Device:C C1
 U 1 1 5BC28D62
 P 17650 3300
 F 0 "C1" V 17398 3300 50  0000 C CNN
 F 1 "10p" V 17489 3300 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 17688 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 17688 3150 50  0001 C CNN
 F 3 "" H 17650 3300 50  0001 C CNN
 	1    17650 3300
 	0    1    1    0   
@@ -1661,12 +1649,12 @@ Connection ~ 18350 4150
 Wire Wire Line
 	18350 4150 18500 4150
 $Comp
-L 4ms-passives:R R106
+L Device:R R106
 U 1 1 5BC5F3D0
 P 19900 4050
 F 0 "R106" V 19700 4050 50  0000 C CNN
 F 1 "1k" V 19784 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 19830 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 19830 4050 50  0001 C CNN
 F 3 "" H 19900 4050 50  0001 C CNN
 	1    19900 4050
 	0    1    1    0   
@@ -1735,12 +1723,12 @@ F 3 "" H 20600 7950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R4
+L Device:R R4
 U 1 1 5BC7F0D0
 P 1900 6100
 F 0 "R4" V 1693 6100 50  0000 C CNN
 F 1 "100k" V 1784 6100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1830 6100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 1830 6100 50  0001 C CNN
 F 3 "" H 1900 6100 50  0001 C CNN
 	1    1900 6100
 	0    1    1    0   
@@ -1761,12 +1749,12 @@ Wire Wire Line
 Wire Wire Line
 	1550 6200 1550 6300
 $Comp
-L 4ms-passives:R R11
+L Device:R R11
 U 1 1 5BC7F0DF
 P 2150 6350
 F 0 "R11" H 2080 6304 50  0000 R CNN
 F 1 "43k" H 2080 6395 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2080 6350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 2080 6350 50  0001 C CNN
 F 3 "" H 2150 6350 50  0001 C CNN
 	1    2150 6350
 	-1   0    0    1   
@@ -1798,12 +1786,12 @@ Wire Wire Line
 Wire Wire Line
 	2400 6750 2400 6850
 $Comp
-L 4ms-passives:R R5
+L Device:R R5
 U 1 1 5BC7F0F5
 P 1900 7000
 F 0 "R5" V 2000 7000 50  0000 C CNN
 F 1 "100k" V 1784 7000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1830 7000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 1830 7000 50  0001 C CNN
 F 3 "" H 1900 7000 50  0001 C CNN
 	1    1900 7000
 	0    1    1    0   
@@ -1838,12 +1826,12 @@ Wire Wire Line
 	2750 6300 2850 6300
 Connection ~ 2150 7000
 $Comp
-L 4ms-passives:R R17
+L Device:R R17
 U 1 1 5BC7F113
 P 3300 5650
 F 0 "R17" V 3400 5650 50  0000 C CNN
 F 1 "100k" V 3184 5650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3230 5650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3230 5650 50  0001 C CNN
 F 3 "" H 3300 5650 50  0001 C CNN
 	1    3300 5650
 	0    1    1    0   
@@ -1884,12 +1872,12 @@ Wire Wire Line
 Wire Wire Line
 	3550 6200 3450 6200
 $Comp
-L 4ms-passives:R R15
+L Device:R R15
 U 1 1 5BC7F12D
 P 3200 5250
 F 0 "R15" V 2993 5250 50  0000 C CNN
 F 1 "120k" V 3084 5250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3130 5250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3130 5250 50  0001 C CNN
 F 3 "" H 3200 5250 50  0001 C CNN
 	1    3200 5250
 	0    1    1    0   
@@ -1930,34 +1918,34 @@ $EndComp
 Wire Wire Line
 	3050 5250 2950 5250
 $Comp
-L 4ms-passives:R R26
+L Device:R R26
 U 1 1 5BC7F148
 P 4050 5000
 F 0 "R26" H 3980 4954 50  0000 R CNN
 F 1 "1M" H 3980 5045 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3980 5000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3980 5000 50  0001 C CNN
 F 3 "" H 4050 5000 50  0001 C CNN
 	1    4050 5000
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R21
+L Device:R R21
 U 1 1 5BC7F14F
 P 3800 4750
 F 0 "R21" V 3593 4750 50  0000 C CNN
 F 1 "82k" V 3684 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3730 4750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3730 4750 50  0001 C CNN
 F 3 "" H 3800 4750 50  0001 C CNN
 	1    3800 4750
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:R R29
+L Device:R R29
 U 1 1 5BC7F156
 P 4300 4750
 F 0 "R29" V 4093 4750 50  0000 C CNN
 F 1 "100k" V 4184 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4230 4750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 4230 4750 50  0001 C CNN
 F 3 "" H 4300 4750 50  0001 C CNN
 	1    4300 4750
 	0    1    1    0   
@@ -2000,12 +1988,12 @@ Wire Wire Line
 Wire Wire Line
 	4550 4750 4450 4750
 $Comp
-L 4ms-passives:R R22
+L Device:R R22
 U 1 1 5BC7F171
 P 3800 6200
 F 0 "R22" V 3900 6200 50  0000 C CNN
 F 1 "100k" V 3684 6200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3730 6200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3730 6200 50  0001 C CNN
 F 3 "" H 3800 6200 50  0001 C CNN
 	1    3800 6200
 	0    1    1    0   
@@ -2041,12 +2029,12 @@ Wire Wire Line
 Wire Wire Line
 	4200 6400 4200 6500
 $Comp
-L 4ms-passives:R R32
+L Device:R R32
 U 1 1 5BC7F190
 P 4750 5800
 F 0 "R32" V 4850 5800 50  0000 C CNN
 F 1 "100k" V 4634 5800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4680 5800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 4680 5800 50  0001 C CNN
 F 3 "" H 4750 5800 50  0001 C CNN
 	1    4750 5800
 	0    1    1    0   
@@ -2080,12 +2068,12 @@ Wire Wire Line
 Wire Wire Line
 	1550 7450 1550 7550
 $Comp
-L 4ms-passives:R R6
+L Device:R R6
 U 1 1 5BC7F1A6
 P 1900 7350
 F 0 "R6" V 1693 7350 50  0000 C CNN
 F 1 "100k" V 1784 7350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1830 7350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 1830 7350 50  0001 C CNN
 F 3 "" H 1900 7350 50  0001 C CNN
 	1    1900 7350
 	0    1    1    0   
@@ -2097,12 +2085,12 @@ Wire Wire Line
 Wire Wire Line
 	4050 7350 4050 6200
 $Comp
-L 4ms-passives:R R35
+L Device:R R35
 U 1 1 5BC7F1B0
 P 5250 6300
 F 0 "R35" V 5350 6300 50  0000 C CNN
 F 1 "200k" V 5134 6300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5180 6300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 5180 6300 50  0001 C CNN
 F 3 "" H 5250 6300 50  0001 C CNN
 	1    5250 6300
 	0    1    1    0   
@@ -2111,12 +2099,12 @@ Wire Wire Line
 	5000 6300 5100 6300
 Connection ~ 5000 6300
 $Comp
-L 4ms-passives:R R42
+L Device:R R42
 U 1 1 5BC7F1C1
 P 6150 5800
 F 0 "R42" V 6250 5800 50  0000 C CNN
 F 1 "100k" V 6034 5800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6080 5800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6080 5800 50  0001 C CNN
 F 3 "" H 6150 5800 50  0001 C CNN
 	1    6150 5800
 	0    1    1    0   
@@ -2171,12 +2159,12 @@ F 3 "" H 5900 6700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R43
+L Device:R R43
 U 1 1 5BC7F1E3
 P 5800 7500
 F 0 "R43" V 5900 7500 50  0000 C CNN
 F 1 "100k" V 5684 7500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5730 7500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 5730 7500 50  0001 C CNN
 F 3 "" H 5800 7500 50  0001 C CNN
 	1    5800 7500
 	0    1    1    0   
@@ -2184,12 +2172,12 @@ $EndComp
 Wire Wire Line
 	5550 7500 5650 7500
 $Comp
-L 4ms-passives:R R49
+L Device:R R49
 U 1 1 5BC7F1EB
 P 6050 7750
 F 0 "R49" V 6150 7750 50  0000 C CNN
 F 1 "560R" V 5934 7750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5980 7750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 5980 7750 50  0001 C CNN
 F 3 "" H 6050 7750 50  0001 C CNN
 	1    6050 7750
 	-1   0    0    1   
@@ -2247,12 +2235,12 @@ F 3 "" H 5150 8400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R40
+L Device:R R40
 U 1 1 5BC7F20F
 P 5650 8250
 F 0 "R40" V 5750 8250 50  0000 C CNN
 F 1 "1M" V 5534 8250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5580 8250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 5580 8250 50  0001 C CNN
 F 3 "" H 5650 8250 50  0001 C CNN
 	1    5650 8250
 	0    1    1    0   
@@ -2278,12 +2266,12 @@ Wire Wire Line
 	6250 7500 6050 7500
 Connection ~ 6050 7500
 $Comp
-L 4ms-passives:R R48
+L Device:R R48
 U 1 1 5BC7F22B
 P 6400 7150
 F 0 "R48" V 6500 7150 50  0000 C CNN
 F 1 "560R" V 6284 7150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6330 7150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6330 7150 50  0001 C CNN
 F 3 "" H 6400 7150 50  0001 C CNN
 	1    6400 7150
 	0    -1   -1   0   
@@ -2310,12 +2298,12 @@ Wire Wire Line
 Wire Wire Line
 	6150 7150 6150 7050
 $Comp
-L 4ms-passives:R R53
+L Device:R R53
 U 1 1 5BC7F23D
 P 6650 6400
 F 0 "R53" V 6750 6400 50  0000 C CNN
 F 1 "30k" V 6534 6400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6580 6400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6580 6400 50  0001 C CNN
 F 3 "" H 6650 6400 50  0001 C CNN
 	1    6650 6400
 	0    1    1    0   
@@ -2348,12 +2336,12 @@ $EndComp
 Wire Wire Line
 	6900 6400 6800 6400
 $Comp
-L 4ms-passives:R R56
+L Device:R R56
 U 1 1 5BC7F254
 P 7550 6400
 F 0 "R56" V 7650 6400 50  0000 C CNN
 F 1 "20k" V 7434 6400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7480 6400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 7480 6400 50  0001 C CNN
 F 3 "" H 7550 6400 50  0001 C CNN
 	1    7550 6400
 	0    1    1    0   
@@ -2402,12 +2390,12 @@ $EndComp
 Wire Wire Line
 	7400 7400 8000 7400
 $Comp
-L 4ms-passives:R R59
+L Device:R R59
 U 1 1 5BC7F273
 P 8500 6950
 F 0 "R59" V 8600 6950 50  0000 C CNN
 F 1 "100k" V 8384 6950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8430 6950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 8430 6950 50  0001 C CNN
 F 3 "" H 8500 6950 50  0001 C CNN
 	1    8500 6950
 	0    1    1    0   
@@ -2440,12 +2428,12 @@ Wire Wire Line
 	8750 7500 8750 7600
 Connection ~ 8750 7500
 $Comp
-L 4ms-passives:R R63
+L Device:R R63
 U 1 1 5BC7F28A
 P 9250 7500
 F 0 "R63" V 9050 7500 50  0000 C CNN
 F 1 "100k" V 9134 7500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9180 7500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 9180 7500 50  0001 C CNN
 F 3 "" H 9250 7500 50  0001 C CNN
 	1    9250 7500
 	0    1    1    0   
@@ -2475,12 +2463,12 @@ F 3 "" H 10000 7900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R64
+L Device:R R64
 U 1 1 5BC7F29E
 P 9250 7700
 F 0 "R64" V 9350 7700 50  0000 C CNN
 F 1 "100k" V 9450 7700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9180 7700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 9180 7700 50  0001 C CNN
 F 3 "" H 9250 7700 50  0001 C CNN
 	1    9250 7700
 	0    1    1    0   
@@ -2497,12 +2485,12 @@ Wire Wire Line
 Wire Wire Line
 	9400 7500 9700 7500
 $Comp
-L 4ms-passives:R R68
+L Device:R R68
 U 1 1 5BC7F2AB
 P 10250 7000
 F 0 "R68" V 10050 7000 50  0000 C CNN
 F 1 "100k" V 10134 7000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10180 7000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 10180 7000 50  0001 C CNN
 F 3 "" H 10250 7000 50  0001 C CNN
 	1    10250 7000
 	0    1    1    0   
@@ -2521,12 +2509,12 @@ Wire Wire Line
 Wire Wire Line
 	10500 7600 10400 7600
 $Comp
-L 4ms-passives:D D5
+L Diode:1N4148 D5
 U 1 1 5BC7F2B9
 P 9450 8050
 F 0 "D5" V 9500 8200 50  0000 R CNN
 F 1 "1N4148" V 9400 8400 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 9450 8050 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9450 8050 50  0001 C CNN
 F 3 "" H 9450 8050 50  0001 C CNN
 	1    9450 8050
 	0    -1   -1   0   
@@ -2568,45 +2556,45 @@ Connection ~ 9550 8700
 Wire Wire Line
 	9550 8700 9650 8700
 $Comp
-L 4ms-passives:D D6
+L Diode:1N4148 D6
 U 1 1 5BC7F2D4
 P 9450 8450
 F 0 "D6" V 9500 8600 50  0000 R CNN
 F 1 "1N4148" V 9400 8800 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 9450 8450 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9450 8450 50  0001 C CNN
 F 3 "" H 9450 8450 50  0001 C CNN
 	1    9450 8450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4ms-passives:D D10
+L Diode:1N4148 D10
 U 1 1 5BC7F2DB
 P 9650 8450
 F 0 "D10" V 9600 8600 50  0000 R CNN
 F 1 "1N4148" V 9700 8800 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 9650 8450 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9650 8450 50  0001 C CNN
 F 3 "" H 9650 8450 50  0001 C CNN
 	1    9650 8450
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:D D9
+L Diode:1N4148 D9
 U 1 1 5BC7F2E2
 P 9650 8050
 F 0 "D9" V 9600 8200 50  0000 R CNN
 F 1 "1N4148" V 9700 8400 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 9650 8050 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9650 8050 50  0001 C CNN
 F 3 "" H 9650 8050 50  0001 C CNN
 	1    9650 8050
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:R R72
+L Device:R R72
 U 1 1 5BC7F2E9
 P 11000 7600
 F 0 "R72" V 10800 7600 50  0000 C CNN
 F 1 "100k" V 10884 7600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10930 7600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 10930 7600 50  0001 C CNN
 F 3 "" H 11000 7600 50  0001 C CNN
 	1    11000 7600
 	0    1    1    0   
@@ -2636,12 +2624,12 @@ F 3 "" H 11750 8000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R73
+L Device:R R73
 U 1 1 5BC7F2FD
 P 11000 7800
 F 0 "R73" V 11100 7800 50  0000 C CNN
 F 1 "100k" V 11200 7800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10930 7800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 10930 7800 50  0001 C CNN
 F 3 "" H 11000 7800 50  0001 C CNN
 	1    11000 7800
 	0    1    1    0   
@@ -2658,12 +2646,12 @@ Wire Wire Line
 Wire Wire Line
 	11150 7600 11450 7600
 $Comp
-L 4ms-passives:R R77
+L Device:R R77
 U 1 1 5BC7F30A
 P 12000 7100
 F 0 "R77" V 11800 7100 50  0000 C CNN
 F 1 "100k" V 11884 7100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 11930 7100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 11930 7100 50  0001 C CNN
 F 3 "" H 12000 7100 50  0001 C CNN
 	1    12000 7100
 	0    1    1    0   
@@ -2682,12 +2670,12 @@ Wire Wire Line
 Wire Wire Line
 	12250 7700 12150 7700
 $Comp
-L 4ms-passives:D D19
+L Diode:1N4148 D19
 U 1 1 5BC7F318
 P 11200 8150
 F 0 "D19" V 11250 8300 50  0000 R CNN
 F 1 "1N4148" V 11150 8500 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11200 8150 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11200 8150 50  0001 C CNN
 F 3 "" H 11200 8150 50  0001 C CNN
 	1    11200 8150
 	0    -1   -1   0   
@@ -2729,57 +2717,57 @@ Connection ~ 11300 9200
 Wire Wire Line
 	11300 9200 11400 9200
 $Comp
-L 4ms-passives:D D20
+L Diode:1N4148 D20
 U 1 1 5BC7F333
 P 11200 8550
 F 0 "D20" V 11250 8700 50  0000 R CNN
 F 1 "1N4148" V 11150 8900 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11200 8550 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11200 8550 50  0001 C CNN
 F 3 "" H 11200 8550 50  0001 C CNN
 	1    11200 8550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4ms-passives:D D26
+L Diode:1N4148 D26
 U 1 1 5BC7F33A
 P 11400 8550
 F 0 "D26" V 11350 8700 50  0000 R CNN
 F 1 "1N4148" V 11450 8900 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11400 8550 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11400 8550 50  0001 C CNN
 F 3 "" H 11400 8550 50  0001 C CNN
 	1    11400 8550
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:D D25
+L Diode:1N4148 D25
 U 1 1 5BC7F341
 P 11400 8150
 F 0 "D25" V 11350 8300 50  0000 R CNN
 F 1 "1N4148" V 11450 8500 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11400 8150 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11400 8150 50  0001 C CNN
 F 3 "" H 11400 8150 50  0001 C CNN
 	1    11400 8150
 	0    1    1    0   
 $EndComp
 Connection ~ 10500 7600
 $Comp
-L 4ms-passives:D D21
+L Diode:1N4148 D21
 U 1 1 5BC7F349
 P 11200 8950
 F 0 "D21" V 11250 9100 50  0000 R CNN
 F 1 "1N4148" V 11150 9300 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11200 8950 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11200 8950 50  0001 C CNN
 F 3 "" H 11200 8950 50  0001 C CNN
 	1    11200 8950
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4ms-passives:D D27
+L Diode:1N4148 D27
 U 1 1 5BC7F350
 P 11400 8950
 F 0 "D27" V 11350 9100 50  0000 R CNN
 F 1 "1N4148" V 11450 9300 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11400 8950 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11400 8950 50  0001 C CNN
 F 3 "" H 11400 8950 50  0001 C CNN
 	1    11400 8950
 	0    1    1    0   
@@ -2789,12 +2777,12 @@ Wire Wire Line
 Wire Wire Line
 	11400 8800 11400 8700
 $Comp
-L 4ms-passives:R R81
+L Device:R R81
 U 1 1 5BC7F359
 P 12750 7700
 F 0 "R81" V 12550 7700 50  0000 C CNN
 F 1 "100k" V 12634 7700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12680 7700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 12680 7700 50  0001 C CNN
 F 3 "" H 12750 7700 50  0001 C CNN
 	1    12750 7700
 	0    1    1    0   
@@ -2824,12 +2812,12 @@ F 3 "" H 13500 8100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R82
+L Device:R R82
 U 1 1 5BC7F36D
 P 12750 7900
 F 0 "R82" V 12850 7900 50  0000 C CNN
 F 1 "100k" V 12950 7900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12680 7900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 12680 7900 50  0001 C CNN
 F 3 "" H 12750 7900 50  0001 C CNN
 	1    12750 7900
 	0    1    1    0   
@@ -2846,12 +2834,12 @@ Wire Wire Line
 Wire Wire Line
 	12900 7700 13200 7700
 $Comp
-L 4ms-passives:R R86
+L Device:R R86
 U 1 1 5BC7F37A
 P 13750 7200
 F 0 "R86" V 13550 7200 50  0000 C CNN
 F 1 "100k" V 13634 7200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13680 7200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 13680 7200 50  0001 C CNN
 F 3 "" H 13750 7200 50  0001 C CNN
 	1    13750 7200
 	0    1    1    0   
@@ -2870,12 +2858,12 @@ Wire Wire Line
 Wire Wire Line
 	14000 7800 13900 7800
 $Comp
-L 4ms-passives:D D33
+L Diode:1N4148 D33
 U 1 1 5BC7F388
 P 12950 8250
 F 0 "D33" V 13000 8400 50  0000 R CNN
 F 1 "1N4148" V 12900 8600 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 12950 8250 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12950 8250 50  0001 C CNN
 F 3 "" H 12950 8250 50  0001 C CNN
 	1    12950 8250
 	0    -1   -1   0   
@@ -2913,12 +2901,12 @@ Connection ~ 13050 8500
 Wire Wire Line
 	13050 8500 13150 8500
 $Comp
-L 4ms-passives:D D35
+L Diode:1N4148 D35
 U 1 1 5BC7F3A1
 P 13150 8250
 F 0 "D35" V 13100 8400 50  0000 R CNN
 F 1 "1N4148" V 13200 8600 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 13150 8250 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13150 8250 50  0001 C CNN
 F 3 "" H 13150 8250 50  0001 C CNN
 	1    13150 8250
 	0    1    1    0   
@@ -2926,12 +2914,12 @@ $EndComp
 Connection ~ 14000 7800
 Connection ~ 12250 7700
 $Comp
-L 4ms-passives:R R90
+L Device:R R90
 U 1 1 5BC7F3AA
 P 14750 7800
 F 0 "R90" V 14550 7800 50  0000 C CNN
 F 1 "100k" V 14634 7800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 14680 7800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 14680 7800 50  0001 C CNN
 F 3 "" H 14750 7800 50  0001 C CNN
 	1    14750 7800
 	0    1    1    0   
@@ -2959,12 +2947,12 @@ F 3 "" H 15500 8200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R91
+L Device:R R91
 U 1 1 5BC7F3BD
 P 14750 8000
 F 0 "R91" V 14850 8000 50  0000 C CNN
 F 1 "100k" V 14950 8000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 14680 8000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 14680 8000 50  0001 C CNN
 F 3 "" H 14750 8000 50  0001 C CNN
 	1    14750 8000
 	0    1    1    0   
@@ -2981,12 +2969,12 @@ Wire Wire Line
 Wire Wire Line
 	14900 7800 15200 7800
 $Comp
-L 4ms-passives:R R95
+L Device:R R95
 U 1 1 5BC7F3CA
 P 15750 7300
 F 0 "R95" V 15550 7300 50  0000 C CNN
 F 1 "100k" V 15634 7300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 15680 7300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 15680 7300 50  0001 C CNN
 F 3 "" H 15750 7300 50  0001 C CNN
 	1    15750 7300
 	0    1    1    0   
@@ -3005,12 +2993,12 @@ Wire Wire Line
 Wire Wire Line
 	16000 7900 15900 7900
 $Comp
-L 4ms-passives:D D39
+L Diode:1N4148 D39
 U 1 1 5BC7F3D8
 P 14950 8350
 F 0 "D39" V 15000 8500 50  0000 R CNN
 F 1 "1N4148" V 14900 8700 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 14950 8350 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14950 8350 50  0001 C CNN
 F 3 "" H 14950 8350 50  0001 C CNN
 	1    14950 8350
 	0    -1   -1   0   
@@ -3048,12 +3036,12 @@ Connection ~ 15050 8600
 Wire Wire Line
 	15050 8600 15150 8600
 $Comp
-L 4ms-passives:D D41
+L Diode:1N4148 D41
 U 1 1 5BC7F3F1
 P 15150 8350
 F 0 "D41" V 15100 8500 50  0000 R CNN
 F 1 "1N4148" V 15200 8700 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 15150 8350 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15150 8350 50  0001 C CNN
 F 3 "" H 15150 8350 50  0001 C CNN
 	1    15150 8350
 	0    1    1    0   
@@ -3064,12 +3052,12 @@ Connection ~ 16000 7900
 Wire Wire Line
 	14000 7800 14500 7800
 $Comp
-L 4ms-passives:D D46
+L Diode:1N4148 D46
 U 1 1 5BC7F3FB
 P 15600 7000
 F 0 "D46" H 15550 6900 50  0000 R CNN
 F 1 "1N4148" H 15750 7100 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 15600 7000 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15600 7000 50  0001 C CNN
 F 3 "" H 15600 7000 50  0001 C CNN
 	1    15600 7000
 	1    0    0    -1  
@@ -3079,12 +3067,12 @@ Wire Wire Line
 Wire Wire Line
 	15750 7000 16000 7000
 $Comp
-L 4ms-passives:D D45
+L Diode:1N4148 D45
 U 1 1 5BC7F404
 P 15600 6700
 F 0 "D45" H 15550 6600 50  0000 R CNN
 F 1 "1N4148" H 15750 6800 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 15600 6700 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15600 6700 50  0001 C CNN
 F 3 "" H 15600 6700 50  0001 C CNN
 	1    15600 6700
 	-1   0    0    1   
@@ -3106,12 +3094,12 @@ Wire Wire Line
 	16000 7000 16000 7300
 Connection ~ 16000 7300
 $Comp
-L 4ms-passives:R R98
+L Device:R R98
 U 1 1 5BC7F415
 P 16400 7900
 F 0 "R98" V 16200 7900 50  0000 C CNN
 F 1 "10k" V 16284 7900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 16330 7900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 16330 7900 50  0001 C CNN
 F 3 "" H 16400 7900 50  0001 C CNN
 	1    16400 7900
 	0    1    1    0   
@@ -3158,12 +3146,12 @@ Wire Wire Line
 Wire Wire Line
 	17200 7400 17200 7300
 $Comp
-L 4ms-passives:R R101
+L Device:R R101
 U 1 1 5BC7F433
 P 17200 7650
 F 0 "R101" V 17000 7650 50  0000 C CNN
 F 1 "1M" V 17084 7650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 17130 7650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 17130 7650 50  0001 C CNN
 F 3 "" H 17200 7650 50  0001 C CNN
 	1    17200 7650
 	0    1    1    0   
@@ -3234,12 +3222,12 @@ Wire Wire Line
 Wire Wire Line
 	17450 8100 17450 8200
 $Comp
-L 4ms-passives:R R104
+L Device:R R104
 U 1 1 5BC7F468
 P 18000 7500
 F 0 "R104" V 17800 7500 50  0000 C CNN
 F 1 "300k" V 17884 7500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 17930 7500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 17930 7500 50  0001 C CNN
 F 3 "" H 18000 7500 50  0001 C CNN
 	1    18000 7500
 	0    1    1    0   
@@ -3263,12 +3251,12 @@ Connection ~ 17450 7650
 Wire Wire Line
 	17450 7650 17450 7900
 $Comp
-L 4ms-passives:C C2
+L Device:C C2
 U 1 1 5BC7F479
 P 17850 7150
 F 0 "C2" V 17598 7150 50  0000 C CNN
 F 1 "10p" V 17689 7150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 17888 7000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 17888 7000 50  0001 C CNN
 F 3 "" H 17850 7150 50  0001 C CNN
 	1    17850 7150
 	0    1    1    0   
@@ -3346,12 +3334,12 @@ Connection ~ 18550 8000
 Wire Wire Line
 	18550 8000 18700 8000
 $Comp
-L 4ms-passives:R R107
+L Device:R R107
 U 1 1 5BC7F4AA
 P 20000 7900
 F 0 "R107" V 19800 7900 50  0000 C CNN
 F 1 "1k" V 19884 7900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 19930 7900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 19930 7900 50  0001 C CNN
 F 3 "" H 20000 7900 50  0001 C CNN
 	1    20000 7900
 	0    1    1    0   
@@ -3421,12 +3409,12 @@ F 3 "" H 20750 12800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R8
+L Device:R R8
 U 1 1 5BCAF2CE
 P 1950 10950
 F 0 "R8" V 1743 10950 50  0000 C CNN
 F 1 "100k" V 1834 10950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1880 10950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 1880 10950 50  0001 C CNN
 F 3 "" H 1950 10950 50  0001 C CNN
 	1    1950 10950
 	0    1    1    0   
@@ -3447,12 +3435,12 @@ Wire Wire Line
 Wire Wire Line
 	1600 11050 1600 11150
 $Comp
-L 4ms-passives:R R12
+L Device:R R12
 U 1 1 5BCAF2DD
 P 2200 11200
 F 0 "R12" H 2130 11154 50  0000 R CNN
 F 1 "43k" H 2130 11245 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2130 11200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 2130 11200 50  0001 C CNN
 F 3 "" H 2200 11200 50  0001 C CNN
 	1    2200 11200
 	-1   0    0    1   
@@ -3484,12 +3472,12 @@ Wire Wire Line
 Wire Wire Line
 	2450 11600 2450 11700
 $Comp
-L 4ms-passives:R R9
+L Device:R R9
 U 1 1 5BCAF2F3
 P 1950 11850
 F 0 "R9" V 2050 11850 50  0000 C CNN
 F 1 "100k" V 1834 11850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1880 11850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 1880 11850 50  0001 C CNN
 F 3 "" H 1950 11850 50  0001 C CNN
 	1    1950 11850
 	0    1    1    0   
@@ -3524,12 +3512,12 @@ Wire Wire Line
 	2800 11150 2900 11150
 Connection ~ 2200 11850
 $Comp
-L 4ms-passives:R R18
+L Device:R R18
 U 1 1 5BCAF311
 P 3350 10500
 F 0 "R18" V 3450 10500 50  0000 C CNN
 F 1 "100k" V 3234 10500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 10500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3280 10500 50  0001 C CNN
 F 3 "" H 3350 10500 50  0001 C CNN
 	1    3350 10500
 	0    1    1    0   
@@ -3570,12 +3558,12 @@ Wire Wire Line
 Wire Wire Line
 	3600 11050 3500 11050
 $Comp
-L 4ms-passives:R R16
+L Device:R R16
 U 1 1 5BCAF32B
 P 3250 10100
 F 0 "R16" V 3043 10100 50  0000 C CNN
 F 1 "120k" V 3134 10100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3180 10100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3180 10100 50  0001 C CNN
 F 3 "" H 3250 10100 50  0001 C CNN
 	1    3250 10100
 	0    1    1    0   
@@ -3616,34 +3604,34 @@ $EndComp
 Wire Wire Line
 	3100 10100 3000 10100
 $Comp
-L 4ms-passives:R R28
+L Device:R R28
 U 1 1 5BCAF346
 P 4100 9850
 F 0 "R28" H 4030 9804 50  0000 R CNN
 F 1 "1M" H 4030 9895 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4030 9850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 4030 9850 50  0001 C CNN
 F 3 "" H 4100 9850 50  0001 C CNN
 	1    4100 9850
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R24
+L Device:R R24
 U 1 1 5BCAF34D
 P 3850 9600
 F 0 "R24" V 3643 9600 50  0000 C CNN
 F 1 "82k" V 3734 9600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3780 9600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3780 9600 50  0001 C CNN
 F 3 "" H 3850 9600 50  0001 C CNN
 	1    3850 9600
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:R R30
+L Device:R R30
 U 1 1 5BCAF354
 P 4350 9600
 F 0 "R30" V 4143 9600 50  0000 C CNN
 F 1 "100k" V 4234 9600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4280 9600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 4280 9600 50  0001 C CNN
 F 3 "" H 4350 9600 50  0001 C CNN
 	1    4350 9600
 	0    1    1    0   
@@ -3686,12 +3674,12 @@ Wire Wire Line
 Wire Wire Line
 	4600 9600 4500 9600
 $Comp
-L 4ms-passives:R R25
+L Device:R R25
 U 1 1 5BCAF36F
 P 3850 11050
 F 0 "R25" V 3950 11050 50  0000 C CNN
 F 1 "100k" V 3734 11050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3780 11050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3780 11050 50  0001 C CNN
 F 3 "" H 3850 11050 50  0001 C CNN
 	1    3850 11050
 	0    1    1    0   
@@ -3727,12 +3715,12 @@ Wire Wire Line
 Wire Wire Line
 	4250 11250 4250 11350
 $Comp
-L 4ms-passives:R R33
+L Device:R R33
 U 1 1 5BCAF38E
 P 4800 10650
 F 0 "R33" V 4900 10650 50  0000 C CNN
 F 1 "100k" V 4684 10650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4730 10650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 4730 10650 50  0001 C CNN
 F 3 "" H 4800 10650 50  0001 C CNN
 	1    4800 10650
 	0    1    1    0   
@@ -3766,12 +3754,12 @@ Wire Wire Line
 Wire Wire Line
 	1600 12300 1600 12400
 $Comp
-L 4ms-passives:R R10
+L Device:R R10
 U 1 1 5BCAF3A4
 P 1950 12200
 F 0 "R10" V 1743 12200 50  0000 C CNN
 F 1 "100k" V 1834 12200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1880 12200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 1880 12200 50  0001 C CNN
 F 3 "" H 1950 12200 50  0001 C CNN
 	1    1950 12200
 	0    1    1    0   
@@ -3783,12 +3771,12 @@ Wire Wire Line
 Wire Wire Line
 	4100 12200 4100 11050
 $Comp
-L 4ms-passives:R R36
+L Device:R R36
 U 1 1 5BCAF3AE
 P 5300 11150
 F 0 "R36" V 5400 11150 50  0000 C CNN
 F 1 "200k" V 5184 11150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5230 11150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 5230 11150 50  0001 C CNN
 F 3 "" H 5300 11150 50  0001 C CNN
 	1    5300 11150
 	0    1    1    0   
@@ -3797,12 +3785,12 @@ Wire Wire Line
 	5050 11150 5150 11150
 Connection ~ 5050 11150
 $Comp
-L 4ms-passives:R R46
+L Device:R R46
 U 1 1 5BCAF3BF
 P 6200 10650
 F 0 "R46" V 6300 10650 50  0000 C CNN
 F 1 "100k" V 6084 10650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6130 10650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6130 10650 50  0001 C CNN
 F 3 "" H 6200 10650 50  0001 C CNN
 	1    6200 10650
 	0    1    1    0   
@@ -3857,12 +3845,12 @@ F 3 "" H 5950 11550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R47
+L Device:R R47
 U 1 1 5BCAF3E1
 P 5850 12350
 F 0 "R47" V 5950 12350 50  0000 C CNN
 F 1 "100k" V 5734 12350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5780 12350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 5780 12350 50  0001 C CNN
 F 3 "" H 5850 12350 50  0001 C CNN
 	1    5850 12350
 	0    1    1    0   
@@ -3870,12 +3858,12 @@ $EndComp
 Wire Wire Line
 	5600 12350 5700 12350
 $Comp
-L 4ms-passives:R R52
+L Device:R R52
 U 1 1 5BCAF3E9
 P 6100 12600
 F 0 "R52" V 6200 12600 50  0000 C CNN
 F 1 "560R" V 5984 12600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6030 12600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6030 12600 50  0001 C CNN
 F 3 "" H 6100 12600 50  0001 C CNN
 	1    6100 12600
 	-1   0    0    1   
@@ -3933,12 +3921,12 @@ F 3 "" H 5300 13250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R41
+L Device:R R41
 U 1 1 5BCAF40D
 P 5700 13100
 F 0 "R41" V 5800 13100 50  0000 C CNN
 F 1 "1M" V 5584 13100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5630 13100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 5630 13100 50  0001 C CNN
 F 3 "" H 5700 13100 50  0001 C CNN
 	1    5700 13100
 	0    1    1    0   
@@ -3975,12 +3963,12 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 6850 12275 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R51
+L Device:R R51
 U 1 1 5BCAF429
 P 6450 12000
 F 0 "R51" V 6550 12000 50  0000 C CNN
 F 1 "560R" V 6334 12000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6380 12000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6380 12000 50  0001 C CNN
 F 3 "" H 6450 12000 50  0001 C CNN
 	1    6450 12000
 	0    -1   -1   0   
@@ -4007,12 +3995,12 @@ Wire Wire Line
 Wire Wire Line
 	6200 12000 6200 11900
 $Comp
-L 4ms-passives:R R54
+L Device:R R54
 U 1 1 5BCAF43B
 P 6700 11250
 F 0 "R54" V 6800 11250 50  0000 C CNN
 F 1 "30k" V 6584 11250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6630 11250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6630 11250 50  0001 C CNN
 F 3 "" H 6700 11250 50  0001 C CNN
 	1    6700 11250
 	0    1    1    0   
@@ -4045,12 +4033,12 @@ $EndComp
 Wire Wire Line
 	6950 11250 6850 11250
 $Comp
-L 4ms-passives:R R57
+L Device:R R57
 U 1 1 5BCAF452
 P 7600 11250
 F 0 "R57" V 7700 11250 50  0000 C CNN
 F 1 "20k" V 7484 11250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7530 11250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 7530 11250 50  0001 C CNN
 F 3 "" H 7600 11250 50  0001 C CNN
 	1    7600 11250
 	0    1    1    0   
@@ -4099,12 +4087,12 @@ $EndComp
 Wire Wire Line
 	7450 12250 8050 12250
 $Comp
-L 4ms-passives:R R60
+L Device:R R60
 U 1 1 5BCAF471
 P 8550 11800
 F 0 "R60" V 8650 11800 50  0000 C CNN
 F 1 "100k" V 8434 11800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8480 11800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 8480 11800 50  0001 C CNN
 F 3 "" H 8550 11800 50  0001 C CNN
 	1    8550 11800
 	0    1    1    0   
@@ -4137,12 +4125,12 @@ Wire Wire Line
 	8800 12350 8800 12450
 Connection ~ 8800 12350
 $Comp
-L 4ms-passives:R R65
+L Device:R R65
 U 1 1 5BCAF488
 P 9300 12350
 F 0 "R65" V 9100 12350 50  0000 C CNN
 F 1 "100k" V 9184 12350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9230 12350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 9230 12350 50  0001 C CNN
 F 3 "" H 9300 12350 50  0001 C CNN
 	1    9300 12350
 	0    1    1    0   
@@ -4172,12 +4160,12 @@ F 3 "" H 10050 12750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R66
+L Device:R R66
 U 1 1 5BCAF49C
 P 9300 12550
 F 0 "R66" V 9400 12550 50  0000 C CNN
 F 1 "100k" V 9500 12550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9230 12550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 9230 12550 50  0001 C CNN
 F 3 "" H 9300 12550 50  0001 C CNN
 	1    9300 12550
 	0    1    1    0   
@@ -4194,12 +4182,12 @@ Wire Wire Line
 Wire Wire Line
 	9450 12350 9750 12350
 $Comp
-L 4ms-passives:R R69
+L Device:R R69
 U 1 1 5BCAF4A9
 P 10300 11850
 F 0 "R69" V 10100 11850 50  0000 C CNN
 F 1 "100k" V 10184 11850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10230 11850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 10230 11850 50  0001 C CNN
 F 3 "" H 10300 11850 50  0001 C CNN
 	1    10300 11850
 	0    1    1    0   
@@ -4218,12 +4206,12 @@ Wire Wire Line
 Wire Wire Line
 	10550 12450 10450 12450
 $Comp
-L 4ms-passives:D D7
+L Diode:1N4148 D7
 U 1 1 5BCAF4B7
 P 9500 12900
 F 0 "D7" V 9550 13050 50  0000 R CNN
 F 1 "1N4148" V 9450 13250 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 9500 12900 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 12900 50  0001 C CNN
 F 3 "" H 9500 12900 50  0001 C CNN
 	1    9500 12900
 	0    -1   -1   0   
@@ -4265,45 +4253,45 @@ Connection ~ 9600 13550
 Wire Wire Line
 	9600 13550 9700 13550
 $Comp
-L 4ms-passives:D D8
+L Diode:1N4148 D8
 U 1 1 5BCAF4D2
 P 9500 13300
 F 0 "D8" V 9550 13450 50  0000 R CNN
 F 1 "1N4148" V 9450 13650 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 9500 13300 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 13300 50  0001 C CNN
 F 3 "" H 9500 13300 50  0001 C CNN
 	1    9500 13300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4ms-passives:D D12
+L Diode:1N4148 D12
 U 1 1 5BCAF4D9
 P 9700 13300
 F 0 "D12" V 9650 13450 50  0000 R CNN
 F 1 "1N4148" V 9750 13650 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 9700 13300 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9700 13300 50  0001 C CNN
 F 3 "" H 9700 13300 50  0001 C CNN
 	1    9700 13300
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:D D11
+L Diode:1N4148 D11
 U 1 1 5BCAF4E0
 P 9700 12900
 F 0 "D11" V 9650 13050 50  0000 R CNN
 F 1 "1N4148" V 9750 13250 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 9700 12900 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9700 12900 50  0001 C CNN
 F 3 "" H 9700 12900 50  0001 C CNN
 	1    9700 12900
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:R R74
+L Device:R R74
 U 1 1 5BCAF4E7
 P 11050 12450
 F 0 "R74" V 10850 12450 50  0000 C CNN
 F 1 "100k" V 10934 12450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10980 12450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 10980 12450 50  0001 C CNN
 F 3 "" H 11050 12450 50  0001 C CNN
 	1    11050 12450
 	0    1    1    0   
@@ -4333,12 +4321,12 @@ F 3 "" H 11800 12850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R75
+L Device:R R75
 U 1 1 5BCAF4FB
 P 11050 12650
 F 0 "R75" V 11150 12650 50  0000 C CNN
 F 1 "100k" V 11250 12650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10980 12650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 10980 12650 50  0001 C CNN
 F 3 "" H 11050 12650 50  0001 C CNN
 	1    11050 12650
 	0    1    1    0   
@@ -4355,12 +4343,12 @@ Wire Wire Line
 Wire Wire Line
 	11200 12450 11500 12450
 $Comp
-L 4ms-passives:R R78
+L Device:R R78
 U 1 1 5BCAF508
 P 12050 11950
 F 0 "R78" V 11850 11950 50  0000 C CNN
 F 1 "100k" V 11934 11950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 11980 11950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 11980 11950 50  0001 C CNN
 F 3 "" H 12050 11950 50  0001 C CNN
 	1    12050 11950
 	0    1    1    0   
@@ -4379,12 +4367,12 @@ Wire Wire Line
 Wire Wire Line
 	12300 12550 12200 12550
 $Comp
-L 4ms-passives:D D22
+L Diode:1N4148 D22
 U 1 1 5BCAF516
 P 11250 13000
 F 0 "D22" V 11300 13150 50  0000 R CNN
 F 1 "1N4148" V 11200 13350 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11250 13000 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11250 13000 50  0001 C CNN
 F 3 "" H 11250 13000 50  0001 C CNN
 	1    11250 13000
 	0    -1   -1   0   
@@ -4426,57 +4414,57 @@ Connection ~ 11350 14050
 Wire Wire Line
 	11350 14050 11450 14050
 $Comp
-L 4ms-passives:D D23
+L Diode:1N4148 D23
 U 1 1 5BCAF531
 P 11250 13400
 F 0 "D23" V 11300 13550 50  0000 R CNN
 F 1 "1N4148" V 11200 13750 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11250 13400 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11250 13400 50  0001 C CNN
 F 3 "" H 11250 13400 50  0001 C CNN
 	1    11250 13400
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4ms-passives:D D29
+L Diode:1N4148 D29
 U 1 1 5BCAF538
 P 11450 13400
 F 0 "D29" V 11400 13550 50  0000 R CNN
 F 1 "1N4148" V 11500 13750 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11450 13400 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11450 13400 50  0001 C CNN
 F 3 "" H 11450 13400 50  0001 C CNN
 	1    11450 13400
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:D D28
+L Diode:1N4148 D28
 U 1 1 5BCAF53F
 P 11450 13000
 F 0 "D28" V 11400 13150 50  0000 R CNN
 F 1 "1N4148" V 11500 13350 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11450 13000 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11450 13000 50  0001 C CNN
 F 3 "" H 11450 13000 50  0001 C CNN
 	1    11450 13000
 	0    1    1    0   
 $EndComp
 Connection ~ 10550 12450
 $Comp
-L 4ms-passives:D D24
+L Diode:1N4148 D24
 U 1 1 5BCAF547
 P 11250 13800
 F 0 "D24" V 11300 13950 50  0000 R CNN
 F 1 "1N4148" V 11200 14150 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11250 13800 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11250 13800 50  0001 C CNN
 F 3 "" H 11250 13800 50  0001 C CNN
 	1    11250 13800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4ms-passives:D D30
+L Diode:1N4148 D30
 U 1 1 5BCAF54E
 P 11450 13800
 F 0 "D30" V 11400 13950 50  0000 R CNN
 F 1 "1N4148" V 11500 14150 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11450 13800 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11450 13800 50  0001 C CNN
 F 3 "" H 11450 13800 50  0001 C CNN
 	1    11450 13800
 	0    1    1    0   
@@ -4486,12 +4474,12 @@ Wire Wire Line
 Wire Wire Line
 	11450 13650 11450 13550
 $Comp
-L 4ms-passives:R R83
+L Device:R R83
 U 1 1 5BCAF557
 P 12800 12550
 F 0 "R83" V 12600 12550 50  0000 C CNN
 F 1 "100k" V 12684 12550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12730 12550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 12730 12550 50  0001 C CNN
 F 3 "" H 12800 12550 50  0001 C CNN
 	1    12800 12550
 	0    1    1    0   
@@ -4521,12 +4509,12 @@ F 3 "" H 13550 12950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R84
+L Device:R R84
 U 1 1 5BCAF56B
 P 12800 12750
 F 0 "R84" V 12900 12750 50  0000 C CNN
 F 1 "100k" V 13000 12750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12730 12750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 12730 12750 50  0001 C CNN
 F 3 "" H 12800 12750 50  0001 C CNN
 	1    12800 12750
 	0    1    1    0   
@@ -4543,12 +4531,12 @@ Wire Wire Line
 Wire Wire Line
 	12950 12550 13250 12550
 $Comp
-L 4ms-passives:R R87
+L Device:R R87
 U 1 1 5BCAF578
 P 13800 12050
 F 0 "R87" V 13600 12050 50  0000 C CNN
 F 1 "100k" V 13684 12050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13730 12050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 13730 12050 50  0001 C CNN
 F 3 "" H 13800 12050 50  0001 C CNN
 	1    13800 12050
 	0    1    1    0   
@@ -4567,12 +4555,12 @@ Wire Wire Line
 Wire Wire Line
 	14050 12650 13950 12650
 $Comp
-L 4ms-passives:D D34
+L Diode:1N4148 D34
 U 1 1 5BCAF586
 P 13000 13100
 F 0 "D34" V 13050 13250 50  0000 R CNN
 F 1 "1N4148" V 12950 13450 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 13000 13100 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13000 13100 50  0001 C CNN
 F 3 "" H 13000 13100 50  0001 C CNN
 	1    13000 13100
 	0    -1   -1   0   
@@ -4610,12 +4598,12 @@ Connection ~ 13100 13350
 Wire Wire Line
 	13100 13350 13200 13350
 $Comp
-L 4ms-passives:D D36
+L Diode:1N4148 D36
 U 1 1 5BCAF59F
 P 13200 13100
 F 0 "D36" V 13150 13250 50  0000 R CNN
 F 1 "1N4148" V 13250 13450 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 13200 13100 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13200 13100 50  0001 C CNN
 F 3 "" H 13200 13100 50  0001 C CNN
 	1    13200 13100
 	0    1    1    0   
@@ -4623,12 +4611,12 @@ $EndComp
 Connection ~ 14050 12650
 Connection ~ 12300 12550
 $Comp
-L 4ms-passives:R R92
+L Device:R R92
 U 1 1 5BCAF5A8
 P 14800 12650
 F 0 "R92" V 14600 12650 50  0000 C CNN
 F 1 "100k" V 14684 12650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 14730 12650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 14730 12650 50  0001 C CNN
 F 3 "" H 14800 12650 50  0001 C CNN
 	1    14800 12650
 	0    1    1    0   
@@ -4656,12 +4644,12 @@ F 3 "" H 15550 13050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R93
+L Device:R R93
 U 1 1 5BCAF5BB
 P 14800 12850
 F 0 "R93" V 14900 12850 50  0000 C CNN
 F 1 "100k" V 15000 12850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 14730 12850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 14730 12850 50  0001 C CNN
 F 3 "" H 14800 12850 50  0001 C CNN
 	1    14800 12850
 	0    1    1    0   
@@ -4678,12 +4666,12 @@ Wire Wire Line
 Wire Wire Line
 	14950 12650 15250 12650
 $Comp
-L 4ms-passives:R R96
+L Device:R R96
 U 1 1 5BCAF5C8
 P 15800 12150
 F 0 "R96" V 15600 12150 50  0000 C CNN
 F 1 "100k" V 15684 12150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 15730 12150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 15730 12150 50  0001 C CNN
 F 3 "" H 15800 12150 50  0001 C CNN
 	1    15800 12150
 	0    1    1    0   
@@ -4702,12 +4690,12 @@ Wire Wire Line
 Wire Wire Line
 	16050 12750 15950 12750
 $Comp
-L 4ms-passives:D D40
+L Diode:1N4148 D40
 U 1 1 5BCAF5D6
 P 15000 13200
 F 0 "D40" V 15050 13350 50  0000 R CNN
 F 1 "1N4148" V 14950 13550 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 15000 13200 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15000 13200 50  0001 C CNN
 F 3 "" H 15000 13200 50  0001 C CNN
 	1    15000 13200
 	0    -1   -1   0   
@@ -4745,12 +4733,12 @@ Connection ~ 15100 13450
 Wire Wire Line
 	15100 13450 15200 13450
 $Comp
-L 4ms-passives:D D42
+L Diode:1N4148 D42
 U 1 1 5BCAF5EF
 P 15200 13200
 F 0 "D42" V 15150 13350 50  0000 R CNN
 F 1 "1N4148" V 15250 13550 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 15200 13200 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15200 13200 50  0001 C CNN
 F 3 "" H 15200 13200 50  0001 C CNN
 	1    15200 13200
 	0    1    1    0   
@@ -4761,12 +4749,12 @@ Connection ~ 16050 12750
 Wire Wire Line
 	14050 12650 14550 12650
 $Comp
-L 4ms-passives:D D48
+L Diode:1N4148 D48
 U 1 1 5BCAF5F9
 P 15650 11850
 F 0 "D48" H 15600 11750 50  0000 R CNN
 F 1 "1N4148" H 15800 11950 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 15650 11850 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15650 11850 50  0001 C CNN
 F 3 "" H 15650 11850 50  0001 C CNN
 	1    15650 11850
 	1    0    0    -1  
@@ -4776,12 +4764,12 @@ Wire Wire Line
 Wire Wire Line
 	15800 11850 16050 11850
 $Comp
-L 4ms-passives:D D47
+L Diode:1N4148 D47
 U 1 1 5BCAF602
 P 15650 11550
 F 0 "D47" H 15600 11450 50  0000 R CNN
 F 1 "1N4148" H 15800 11650 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 15650 11550 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15650 11550 50  0001 C CNN
 F 3 "" H 15650 11550 50  0001 C CNN
 	1    15650 11550
 	-1   0    0    1   
@@ -4803,12 +4791,12 @@ Wire Wire Line
 	16050 11850 16050 12150
 Connection ~ 16050 12150
 $Comp
-L 4ms-passives:R R99
+L Device:R R99
 U 1 1 5BCAF613
 P 16450 12750
 F 0 "R99" V 16250 12750 50  0000 C CNN
 F 1 "10k" V 16334 12750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 16380 12750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 16380 12750 50  0001 C CNN
 F 3 "" H 16450 12750 50  0001 C CNN
 	1    16450 12750
 	0    1    1    0   
@@ -4855,12 +4843,12 @@ Wire Wire Line
 Wire Wire Line
 	17250 12250 17250 12150
 $Comp
-L 4ms-passives:R R102
+L Device:R R102
 U 1 1 5BCAF631
 P 17250 12500
 F 0 "R102" V 17050 12500 50  0000 C CNN
 F 1 "1M" V 17134 12500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 17180 12500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 17180 12500 50  0001 C CNN
 F 3 "" H 17250 12500 50  0001 C CNN
 	1    17250 12500
 	0    1    1    0   
@@ -4931,12 +4919,12 @@ Wire Wire Line
 Wire Wire Line
 	17500 12950 17500 13050
 $Comp
-L 4ms-passives:R R105
+L Device:R R105
 U 1 1 5BCAF666
 P 18050 12350
 F 0 "R105" V 17850 12350 50  0000 C CNN
 F 1 "300k" V 17934 12350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 17980 12350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 17980 12350 50  0001 C CNN
 F 3 "" H 18050 12350 50  0001 C CNN
 	1    18050 12350
 	0    1    1    0   
@@ -4960,12 +4948,12 @@ Connection ~ 17500 12500
 Wire Wire Line
 	17500 12500 17500 12750
 $Comp
-L 4ms-passives:C C3
+L Device:C C3
 U 1 1 5BCAF677
 P 17900 12000
 F 0 "C3" V 17648 12000 50  0000 C CNN
 F 1 "10p" V 17739 12000 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 17938 11850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 17938 11850 50  0001 C CNN
 F 3 "" H 17900 12000 50  0001 C CNN
 	1    17900 12000
 	0    1    1    0   
@@ -5043,12 +5031,12 @@ Connection ~ 18600 12850
 Wire Wire Line
 	18600 12850 18750 12850
 $Comp
-L 4ms-passives:R R108
+L Device:R R108
 U 1 1 5BCAF6A8
 P 20150 12750
 F 0 "R108" V 19950 12750 50  0000 C CNN
 F 1 "1k" V 20034 12750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 20080 12750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 20080 12750 50  0001 C CNN
 F 3 "" H 20150 12750 50  0001 C CNN
 	1    20150 12750
 	0    1    1    0   
@@ -5118,12 +5106,12 @@ F 3 "" H 21350 18850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R109
+L Device:R R109
 U 1 1 5BD2AE9F
 P 2550 17000
 F 0 "R109" V 2343 17000 50  0000 C CNN
 F 1 "100k" V 2434 17000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2480 17000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 2480 17000 50  0001 C CNN
 F 3 "" H 2550 17000 50  0001 C CNN
 	1    2550 17000
 	0    1    1    0   
@@ -5144,12 +5132,12 @@ Wire Wire Line
 Wire Wire Line
 	2200 17100 2200 17200
 $Comp
-L 4ms-passives:R R112
+L Device:R R112
 U 1 1 5BD2AEAD
 P 2800 17250
 F 0 "R112" H 2730 17204 50  0000 R CNN
 F 1 "43k" H 2730 17295 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2730 17250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 2730 17250 50  0001 C CNN
 F 3 "" H 2800 17250 50  0001 C CNN
 	1    2800 17250
 	-1   0    0    1   
@@ -5181,12 +5169,12 @@ Wire Wire Line
 Wire Wire Line
 	3050 17650 3050 17750
 $Comp
-L 4ms-passives:R R110
+L Device:R R110
 U 1 1 5BD2AEC1
 P 2550 17900
 F 0 "R110" V 2650 17900 50  0000 C CNN
 F 1 "100k" V 2434 17900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2480 17900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 2480 17900 50  0001 C CNN
 F 3 "" H 2550 17900 50  0001 C CNN
 	1    2550 17900
 	0    1    1    0   
@@ -5221,12 +5209,12 @@ Wire Wire Line
 	3400 17200 3500 17200
 Connection ~ 2800 17900
 $Comp
-L 4ms-passives:R R114
+L Device:R R114
 U 1 1 5BD2AEDD
 P 3950 16550
 F 0 "R114" V 4050 16550 50  0000 C CNN
 F 1 "100k" V 3834 16550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3880 16550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3880 16550 50  0001 C CNN
 F 3 "" H 3950 16550 50  0001 C CNN
 	1    3950 16550
 	0    1    1    0   
@@ -5267,12 +5255,12 @@ Wire Wire Line
 Wire Wire Line
 	4200 17100 4100 17100
 $Comp
-L 4ms-passives:R R113
+L Device:R R113
 U 1 1 5BD2AEF6
 P 3850 16150
 F 0 "R113" V 3643 16150 50  0000 C CNN
 F 1 "120k" V 3734 16150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3780 16150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 3780 16150 50  0001 C CNN
 F 3 "" H 3850 16150 50  0001 C CNN
 	1    3850 16150
 	0    1    1    0   
@@ -5313,34 +5301,34 @@ $EndComp
 Wire Wire Line
 	3700 16150 3600 16150
 $Comp
-L 4ms-passives:R R117
+L Device:R R117
 U 1 1 5BD2AF0F
 P 4700 15900
 F 0 "R117" H 4630 15854 50  0000 R CNN
 F 1 "1M" H 4630 15945 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4630 15900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 4630 15900 50  0001 C CNN
 F 3 "" H 4700 15900 50  0001 C CNN
 	1    4700 15900
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R115
+L Device:R R115
 U 1 1 5BD2AF15
 P 4450 15650
 F 0 "R115" V 4243 15650 50  0000 C CNN
 F 1 "82k" V 4334 15650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4380 15650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 4380 15650 50  0001 C CNN
 F 3 "" H 4450 15650 50  0001 C CNN
 	1    4450 15650
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:R R118
+L Device:R R118
 U 1 1 5BD2AF1B
 P 4950 15650
 F 0 "R118" V 4743 15650 50  0000 C CNN
 F 1 "100k" V 4834 15650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4880 15650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 4880 15650 50  0001 C CNN
 F 3 "" H 4950 15650 50  0001 C CNN
 	1    4950 15650
 	0    1    1    0   
@@ -5383,12 +5371,12 @@ Wire Wire Line
 Wire Wire Line
 	5200 15650 5100 15650
 $Comp
-L 4ms-passives:R R116
+L Device:R R116
 U 1 1 5BD2AF35
 P 4450 17100
 F 0 "R116" V 4550 17100 50  0000 C CNN
 F 1 "100k" V 4334 17100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4380 17100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 4380 17100 50  0001 C CNN
 F 3 "" H 4450 17100 50  0001 C CNN
 	1    4450 17100
 	0    1    1    0   
@@ -5424,12 +5412,12 @@ Wire Wire Line
 Wire Wire Line
 	4850 17300 4850 17400
 $Comp
-L 4ms-passives:R R119
+L Device:R R119
 U 1 1 5BD2AF52
 P 5400 16700
 F 0 "R119" V 5500 16700 50  0000 C CNN
 F 1 "100k" V 5284 16700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5330 16700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 5330 16700 50  0001 C CNN
 F 3 "" H 5400 16700 50  0001 C CNN
 	1    5400 16700
 	0    1    1    0   
@@ -5463,12 +5451,12 @@ Wire Wire Line
 Wire Wire Line
 	2200 18350 2200 18450
 $Comp
-L 4ms-passives:R R111
+L Device:R R111
 U 1 1 5BD2AF67
 P 2550 18250
 F 0 "R111" V 2343 18250 50  0000 C CNN
 F 1 "100k" V 2434 18250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2480 18250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 2480 18250 50  0001 C CNN
 F 3 "" H 2550 18250 50  0001 C CNN
 	1    2550 18250
 	0    1    1    0   
@@ -5480,12 +5468,12 @@ Wire Wire Line
 Wire Wire Line
 	4700 18250 4700 17100
 $Comp
-L 4ms-passives:R R120
+L Device:R R120
 U 1 1 5BD2AF70
 P 5900 17200
 F 0 "R120" V 6000 17200 50  0000 C CNN
 F 1 "200k" V 5784 17200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5830 17200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 5830 17200 50  0001 C CNN
 F 3 "" H 5900 17200 50  0001 C CNN
 	1    5900 17200
 	0    1    1    0   
@@ -5494,12 +5482,12 @@ Wire Wire Line
 	5650 17200 5750 17200
 Connection ~ 5650 17200
 $Comp
-L 4ms-passives:R R122
+L Device:R R122
 U 1 1 5BD2AF7F
 P 6800 16700
 F 0 "R122" V 6900 16700 50  0000 C CNN
 F 1 "100k" V 6684 16700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6730 16700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6730 16700 50  0001 C CNN
 F 3 "" H 6800 16700 50  0001 C CNN
 	1    6800 16700
 	0    1    1    0   
@@ -5554,12 +5542,12 @@ F 3 "" H 6550 17600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R123
+L Device:R R123
 U 1 1 5BD2AFA0
 P 6450 18400
 F 0 "R123" V 6550 18400 50  0000 C CNN
 F 1 "100k" V 6334 18400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6380 18400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6380 18400 50  0001 C CNN
 F 3 "" H 6450 18400 50  0001 C CNN
 	1    6450 18400
 	0    1    1    0   
@@ -5567,12 +5555,12 @@ $EndComp
 Wire Wire Line
 	6200 18400 6300 18400
 $Comp
-L 4ms-passives:R R125
+L Device:R R125
 U 1 1 5BD2AFA7
 P 6700 18650
 F 0 "R125" V 6800 18650 50  0000 C CNN
 F 1 "560R" V 6584 18650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6630 18650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6630 18650 50  0001 C CNN
 F 3 "" H 6700 18650 50  0001 C CNN
 	1    6700 18650
 	-1   0    0    1   
@@ -5630,12 +5618,12 @@ F 3 "" H 5900 19300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R121
+L Device:R R121
 U 1 1 5BD2AFC9
 P 6300 19150
 F 0 "R121" V 6400 19150 50  0000 C CNN
 F 1 "1M" V 6184 19150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6230 19150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6230 19150 50  0001 C CNN
 F 3 "" H 6300 19150 50  0001 C CNN
 	1    6300 19150
 	0    1    1    0   
@@ -5663,12 +5651,12 @@ Wire Wire Line
 	6900 18400 6700 18400
 Connection ~ 6700 18400
 $Comp
-L 4ms-passives:R R124
+L Device:R R124
 U 1 1 5BD2AFE3
 P 7050 18050
 F 0 "R124" V 7150 18050 50  0000 C CNN
 F 1 "560R" V 6934 18050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6980 18050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 6980 18050 50  0001 C CNN
 F 3 "" H 7050 18050 50  0001 C CNN
 	1    7050 18050
 	0    -1   -1   0   
@@ -5695,12 +5683,12 @@ Wire Wire Line
 Wire Wire Line
 	6800 18050 6800 17950
 $Comp
-L 4ms-passives:R R126
+L Device:R R126
 U 1 1 5BD2AFF4
 P 7300 17300
 F 0 "R126" V 7400 17300 50  0000 C CNN
 F 1 "30k" V 7184 17300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7230 17300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 7230 17300 50  0001 C CNN
 F 3 "" H 7300 17300 50  0001 C CNN
 	1    7300 17300
 	0    1    1    0   
@@ -5733,12 +5721,12 @@ $EndComp
 Wire Wire Line
 	7550 17300 7450 17300
 $Comp
-L 4ms-passives:R R127
+L Device:R R127
 U 1 1 5BD2B009
 P 8200 17300
 F 0 "R127" V 8300 17300 50  0000 C CNN
 F 1 "20k" V 8084 17300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8130 17300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 8130 17300 50  0001 C CNN
 F 3 "" H 8200 17300 50  0001 C CNN
 	1    8200 17300
 	0    1    1    0   
@@ -5787,12 +5775,12 @@ $EndComp
 Wire Wire Line
 	8050 18300 8650 18300
 $Comp
-L 4ms-passives:R R128
+L Device:R R128
 U 1 1 5BD2B026
 P 9150 17850
 F 0 "R128" V 9250 17850 50  0000 C CNN
 F 1 "100k" V 9034 17850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9080 17850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 9080 17850 50  0001 C CNN
 F 3 "" H 9150 17850 50  0001 C CNN
 	1    9150 17850
 	0    1    1    0   
@@ -5825,12 +5813,12 @@ Wire Wire Line
 	9400 18400 9400 18500
 Connection ~ 9400 18400
 $Comp
-L 4ms-passives:R R129
+L Device:R R129
 U 1 1 5BD2B03B
 P 9900 18400
 F 0 "R129" V 9700 18400 50  0000 C CNN
 F 1 "100k" V 9784 18400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9830 18400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 9830 18400 50  0001 C CNN
 F 3 "" H 9900 18400 50  0001 C CNN
 	1    9900 18400
 	0    1    1    0   
@@ -5860,12 +5848,12 @@ F 3 "" H 10650 18800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R130
+L Device:R R130
 U 1 1 5BD2B04E
 P 9900 18600
 F 0 "R130" V 10000 18600 50  0000 C CNN
 F 1 "100k" V 10100 18600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9830 18600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 9830 18600 50  0001 C CNN
 F 3 "" H 9900 18600 50  0001 C CNN
 	1    9900 18600
 	0    1    1    0   
@@ -5882,12 +5870,12 @@ Wire Wire Line
 Wire Wire Line
 	10050 18400 10350 18400
 $Comp
-L 4ms-passives:R R131
+L Device:R R131
 U 1 1 5BD2B05A
 P 10900 17900
 F 0 "R131" V 10700 17900 50  0000 C CNN
 F 1 "100k" V 10784 17900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10830 17900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 10830 17900 50  0001 C CNN
 F 3 "" H 10900 17900 50  0001 C CNN
 	1    10900 17900
 	0    1    1    0   
@@ -5906,12 +5894,12 @@ Wire Wire Line
 Wire Wire Line
 	11150 18500 11050 18500
 $Comp
-L 4ms-passives:D D49
+L Diode:1N4148 D49
 U 1 1 5BD2B067
 P 10100 18950
 F 0 "D49" V 10150 19100 50  0000 R CNN
 F 1 "1N4148" V 10050 19300 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 10100 18950 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10100 18950 50  0001 C CNN
 F 3 "" H 10100 18950 50  0001 C CNN
 	1    10100 18950
 	0    -1   -1   0   
@@ -5953,45 +5941,45 @@ Connection ~ 10200 19600
 Wire Wire Line
 	10200 19600 10300 19600
 $Comp
-L 4ms-passives:D D50
+L Diode:1N4148 D50
 U 1 1 5BD2B081
 P 10100 19350
 F 0 "D50" V 10150 19500 50  0000 R CNN
 F 1 "1N4148" V 10050 19700 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 10100 19350 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10100 19350 50  0001 C CNN
 F 3 "" H 10100 19350 50  0001 C CNN
 	1    10100 19350
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4ms-passives:D D52
+L Diode:1N4148 D52
 U 1 1 5BD2B087
 P 10300 19350
 F 0 "D52" V 10250 19500 50  0000 R CNN
 F 1 "1N4148" V 10350 19700 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 10300 19350 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10300 19350 50  0001 C CNN
 F 3 "" H 10300 19350 50  0001 C CNN
 	1    10300 19350
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:D D51
+L Diode:1N4148 D51
 U 1 1 5BD2B08D
 P 10300 18950
 F 0 "D51" V 10250 19100 50  0000 R CNN
 F 1 "1N4148" V 10350 19300 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 10300 18950 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10300 18950 50  0001 C CNN
 F 3 "" H 10300 18950 50  0001 C CNN
 	1    10300 18950
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:R R132
+L Device:R R132
 U 1 1 5BD2B093
 P 11650 18500
 F 0 "R132" V 11450 18500 50  0000 C CNN
 F 1 "100k" V 11534 18500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 11580 18500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 11580 18500 50  0001 C CNN
 F 3 "" H 11650 18500 50  0001 C CNN
 	1    11650 18500
 	0    1    1    0   
@@ -6021,12 +6009,12 @@ F 3 "" H 12400 18900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R133
+L Device:R R133
 U 1 1 5BD2B0A6
 P 11650 18700
 F 0 "R133" V 11750 18700 50  0000 C CNN
 F 1 "100k" V 11850 18700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 11580 18700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 11580 18700 50  0001 C CNN
 F 3 "" H 11650 18700 50  0001 C CNN
 	1    11650 18700
 	0    1    1    0   
@@ -6043,12 +6031,12 @@ Wire Wire Line
 Wire Wire Line
 	11800 18500 12100 18500
 $Comp
-L 4ms-passives:R R134
+L Device:R R134
 U 1 1 5BD2B0B2
 P 12650 18000
 F 0 "R134" V 12450 18000 50  0000 C CNN
 F 1 "100k" V 12534 18000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12580 18000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 12580 18000 50  0001 C CNN
 F 3 "" H 12650 18000 50  0001 C CNN
 	1    12650 18000
 	0    1    1    0   
@@ -6067,12 +6055,12 @@ Wire Wire Line
 Wire Wire Line
 	12900 18600 12800 18600
 $Comp
-L 4ms-passives:D D53
+L Diode:1N4148 D53
 U 1 1 5BD2B0BF
 P 11850 19050
 F 0 "D53" V 11900 19200 50  0000 R CNN
 F 1 "1N4148" V 11800 19400 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11850 19050 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11850 19050 50  0001 C CNN
 F 3 "" H 11850 19050 50  0001 C CNN
 	1    11850 19050
 	0    -1   -1   0   
@@ -6114,57 +6102,57 @@ Connection ~ 11950 20100
 Wire Wire Line
 	11950 20100 12050 20100
 $Comp
-L 4ms-passives:D D54
+L Diode:1N4148 D54
 U 1 1 5BD2B0D9
 P 11850 19450
 F 0 "D54" V 11900 19600 50  0000 R CNN
 F 1 "1N4148" V 11800 19800 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11850 19450 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11850 19450 50  0001 C CNN
 F 3 "" H 11850 19450 50  0001 C CNN
 	1    11850 19450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4ms-passives:D D57
+L Diode:1N4148 D57
 U 1 1 5BD2B0DF
 P 12050 19450
 F 0 "D57" V 12000 19600 50  0000 R CNN
 F 1 "1N4148" V 12100 19800 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 12050 19450 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12050 19450 50  0001 C CNN
 F 3 "" H 12050 19450 50  0001 C CNN
 	1    12050 19450
 	0    1    1    0   
 $EndComp
 $Comp
-L 4ms-passives:D D56
+L Diode:1N4148 D56
 U 1 1 5BD2B0E5
 P 12050 19050
 F 0 "D56" V 12000 19200 50  0000 R CNN
 F 1 "1N4148" V 12100 19400 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 12050 19050 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12050 19050 50  0001 C CNN
 F 3 "" H 12050 19050 50  0001 C CNN
 	1    12050 19050
 	0    1    1    0   
 $EndComp
 Connection ~ 11150 18500
 $Comp
-L 4ms-passives:D D55
+L Diode:1N4148 D55
 U 1 1 5BD2B0EC
 P 11850 19850
 F 0 "D55" V 11900 20000 50  0000 R CNN
 F 1 "1N4148" V 11800 20200 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 11850 19850 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11850 19850 50  0001 C CNN
 F 3 "" H 11850 19850 50  0001 C CNN
 	1    11850 19850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4ms-passives:D D58
+L Diode:1N4148 D58
 U 1 1 5BD2B0F2
 P 12050 19850
 F 0 "D58" V 12000 20000 50  0000 R CNN
 F 1 "1N4148" V 12100 20200 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 12050 19850 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12050 19850 50  0001 C CNN
 F 3 "" H 12050 19850 50  0001 C CNN
 	1    12050 19850
 	0    1    1    0   
@@ -6174,12 +6162,12 @@ Wire Wire Line
 Wire Wire Line
 	12050 19700 12050 19600
 $Comp
-L 4ms-passives:R R135
+L Device:R R135
 U 1 1 5BD2B0FA
 P 13400 18600
 F 0 "R135" V 13200 18600 50  0000 C CNN
 F 1 "100k" V 13284 18600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13330 18600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 13330 18600 50  0001 C CNN
 F 3 "" H 13400 18600 50  0001 C CNN
 	1    13400 18600
 	0    1    1    0   
@@ -6209,12 +6197,12 @@ F 3 "" H 14150 19000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R136
+L Device:R R136
 U 1 1 5BD2B10D
 P 13400 18800
 F 0 "R136" V 13500 18800 50  0000 C CNN
 F 1 "100k" V 13600 18800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13330 18800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 13330 18800 50  0001 C CNN
 F 3 "" H 13400 18800 50  0001 C CNN
 	1    13400 18800
 	0    1    1    0   
@@ -6231,12 +6219,12 @@ Wire Wire Line
 Wire Wire Line
 	13550 18600 13850 18600
 $Comp
-L 4ms-passives:R R137
+L Device:R R137
 U 1 1 5BD2B119
 P 14400 18100
 F 0 "R137" V 14200 18100 50  0000 C CNN
 F 1 "100k" V 14284 18100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 14330 18100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 14330 18100 50  0001 C CNN
 F 3 "" H 14400 18100 50  0001 C CNN
 	1    14400 18100
 	0    1    1    0   
@@ -6255,12 +6243,12 @@ Wire Wire Line
 Wire Wire Line
 	14650 18700 14550 18700
 $Comp
-L 4ms-passives:D D59
+L Diode:1N4148 D59
 U 1 1 5BD2B126
 P 13600 19150
 F 0 "D59" V 13650 19300 50  0000 R CNN
 F 1 "1N4148" V 13550 19500 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 13600 19150 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13600 19150 50  0001 C CNN
 F 3 "" H 13600 19150 50  0001 C CNN
 	1    13600 19150
 	0    -1   -1   0   
@@ -6298,12 +6286,12 @@ Connection ~ 13700 19400
 Wire Wire Line
 	13700 19400 13800 19400
 $Comp
-L 4ms-passives:D D60
+L Diode:1N4148 D60
 U 1 1 5BD2B13E
 P 13800 19150
 F 0 "D60" V 13750 19300 50  0000 R CNN
 F 1 "1N4148" V 13850 19500 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 13800 19150 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13800 19150 50  0001 C CNN
 F 3 "" H 13800 19150 50  0001 C CNN
 	1    13800 19150
 	0    1    1    0   
@@ -6311,12 +6299,12 @@ $EndComp
 Connection ~ 14650 18700
 Connection ~ 12900 18600
 $Comp
-L 4ms-passives:R R138
+L Device:R R138
 U 1 1 5BD2B146
 P 15400 18700
 F 0 "R138" V 15200 18700 50  0000 C CNN
 F 1 "100k" V 15284 18700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 15330 18700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 15330 18700 50  0001 C CNN
 F 3 "" H 15400 18700 50  0001 C CNN
 	1    15400 18700
 	0    1    1    0   
@@ -6344,12 +6332,12 @@ F 3 "" H 16150 19100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:R R139
+L Device:R R139
 U 1 1 5BD2B158
 P 15400 18900
 F 0 "R139" V 15500 18900 50  0000 C CNN
 F 1 "100k" V 15600 18900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 15330 18900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 15330 18900 50  0001 C CNN
 F 3 "" H 15400 18900 50  0001 C CNN
 	1    15400 18900
 	0    1    1    0   
@@ -6366,12 +6354,12 @@ Wire Wire Line
 Wire Wire Line
 	15550 18700 15850 18700
 $Comp
-L 4ms-passives:R R140
+L Device:R R140
 U 1 1 5BD2B164
 P 16400 18200
 F 0 "R140" V 16200 18200 50  0000 C CNN
 F 1 "100k" V 16284 18200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 16330 18200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 16330 18200 50  0001 C CNN
 F 3 "" H 16400 18200 50  0001 C CNN
 	1    16400 18200
 	0    1    1    0   
@@ -6390,12 +6378,12 @@ Wire Wire Line
 Wire Wire Line
 	16650 18800 16550 18800
 $Comp
-L 4ms-passives:D D61
+L Diode:1N4148 D61
 U 1 1 5BD2B171
 P 15600 19250
 F 0 "D61" V 15650 19400 50  0000 R CNN
 F 1 "1N4148" V 15550 19600 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 15600 19250 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15600 19250 50  0001 C CNN
 F 3 "" H 15600 19250 50  0001 C CNN
 	1    15600 19250
 	0    -1   -1   0   
@@ -6433,12 +6421,12 @@ Connection ~ 15700 19500
 Wire Wire Line
 	15700 19500 15800 19500
 $Comp
-L 4ms-passives:D D62
+L Diode:1N4148 D62
 U 1 1 5BD2B189
 P 15800 19250
 F 0 "D62" V 15750 19400 50  0000 R CNN
 F 1 "1N4148" V 15850 19600 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 15800 19250 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15800 19250 50  0001 C CNN
 F 3 "" H 15800 19250 50  0001 C CNN
 	1    15800 19250
 	0    1    1    0   
@@ -6449,12 +6437,12 @@ Connection ~ 16650 18800
 Wire Wire Line
 	14650 18700 15150 18700
 $Comp
-L 4ms-passives:D D64
+L Diode:1N4148 D64
 U 1 1 5BD2B192
 P 16250 17900
 F 0 "D64" H 16200 17800 50  0000 R CNN
 F 1 "1N4148" H 16400 18000 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 16250 17900 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 16250 17900 50  0001 C CNN
 F 3 "" H 16250 17900 50  0001 C CNN
 	1    16250 17900
 	1    0    0    -1  
@@ -6464,12 +6452,12 @@ Wire Wire Line
 Wire Wire Line
 	16400 17900 16650 17900
 $Comp
-L 4ms-passives:D D63
+L Diode:1N4148 D63
 U 1 1 5BD2B19A
 P 16250 17600
 F 0 "D63" H 16200 17500 50  0000 R CNN
 F 1 "1N4148" H 16400 17700 50  0000 R CNN
-F 2 "Diodes_SMD:D_0603" H 16250 17600 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 16250 17600 50  0001 C CNN
 F 3 "" H 16250 17600 50  0001 C CNN
 	1    16250 17600
 	-1   0    0    1   
@@ -6491,12 +6479,12 @@ Wire Wire Line
 	16650 17900 16650 18200
 Connection ~ 16650 18200
 $Comp
-L 4ms-passives:R R141
+L Device:R R141
 U 1 1 5BD2B1AA
 P 17050 18800
 F 0 "R141" V 16850 18800 50  0000 C CNN
 F 1 "10k" V 16934 18800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 16980 18800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 16980 18800 50  0001 C CNN
 F 3 "" H 17050 18800 50  0001 C CNN
 	1    17050 18800
 	0    1    1    0   
@@ -6543,12 +6531,12 @@ Wire Wire Line
 Wire Wire Line
 	17850 18300 17850 18200
 $Comp
-L 4ms-passives:R R142
+L Device:R R142
 U 1 1 5BD2B1C6
 P 17850 18550
 F 0 "R142" V 17650 18550 50  0000 C CNN
 F 1 "1M" V 17734 18550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 17780 18550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 17780 18550 50  0001 C CNN
 F 3 "" H 17850 18550 50  0001 C CNN
 	1    17850 18550
 	0    1    1    0   
@@ -6619,12 +6607,12 @@ Wire Wire Line
 Wire Wire Line
 	18100 19000 18100 19100
 $Comp
-L 4ms-passives:R R143
+L Device:R R143
 U 1 1 5BD2B1F5
 P 18650 18400
 F 0 "R143" V 18450 18400 50  0000 C CNN
 F 1 "300k" V 18534 18400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 18580 18400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 18580 18400 50  0001 C CNN
 F 3 "" H 18650 18400 50  0001 C CNN
 	1    18650 18400
 	0    1    1    0   
@@ -6648,12 +6636,12 @@ Connection ~ 18100 18550
 Wire Wire Line
 	18100 18550 18100 18800
 $Comp
-L 4ms-passives:C C4
+L Device:C C4
 U 1 1 5BD2B205
 P 18500 18050
 F 0 "C4" V 18248 18050 50  0000 C CNN
 F 1 "10p" V 18339 18050 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 18538 17900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 18538 17900 50  0001 C CNN
 F 3 "" H 18500 18050 50  0001 C CNN
 	1    18500 18050
 	0    1    1    0   
@@ -6731,12 +6719,12 @@ Connection ~ 19200 18900
 Wire Wire Line
 	19200 18900 19350 18900
 $Comp
-L 4ms-passives:R R144
+L Device:R R144
 U 1 1 5BD2B233
 P 20750 18800
 F 0 "R144" V 20550 18800 50  0000 C CNN
 F 1 "1k" V 20634 18800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 20680 18800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 20680 18800 50  0001 C CNN
 F 3 "" H 20750 18800 50  0001 C CNN
 	1    20750 18800
 	0    1    1    0   
@@ -7141,23 +7129,23 @@ F 3 "" H 7900 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4ms-passives:C C5
+L Device:C C5
 U 1 1 5C872A84
 P 8300 900
 F 0 "C5" H 8250 800 50  0000 R CNN
 F 1 "100n" H 8300 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8338 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 8338 750 50  0001 C CNN
 F 3 "" H 8300 900 50  0001 C CNN
 	1    8300 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C6
+L Device:C C6
 U 1 1 5C873B73
 P 8300 1400
 F 0 "C6" H 8250 1300 50  0000 R CNN
 F 1 "100n" H 8300 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8338 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 8338 1250 50  0001 C CNN
 F 3 "" H 8300 1400 50  0001 C CNN
 	1    8300 1400
 	-1   0    0    1   
@@ -7167,287 +7155,287 @@ Wire Wire Line
 Wire Wire Line
 	7900 1150 8300 1150
 $Comp
-L 4ms-passives:C C8
+L Device:C C8
 U 1 1 5C94911E
 P 8550 1400
 F 0 "C8" H 8500 1300 50  0000 R CNN
 F 1 "100n" H 8550 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8588 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 8588 1250 50  0001 C CNN
 F 3 "" H 8550 1400 50  0001 C CNN
 	1    8550 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C10
+L Device:C C10
 U 1 1 5C9494FF
 P 8800 1400
 F 0 "C10" H 8750 1300 50  0000 R CNN
 F 1 "100n" H 8800 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8838 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 8838 1250 50  0001 C CNN
 F 3 "" H 8800 1400 50  0001 C CNN
 	1    8800 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C12
+L Device:C C12
 U 1 1 5C949505
 P 9050 1400
 F 0 "C12" H 9000 1300 50  0000 R CNN
 F 1 "100n" H 9050 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9088 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 9088 1250 50  0001 C CNN
 F 3 "" H 9050 1400 50  0001 C CNN
 	1    9050 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C14
+L Device:C C14
 U 1 1 5CA1C5CA
 P 9300 1400
 F 0 "C14" H 9250 1300 50  0000 R CNN
 F 1 "100n" H 9300 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9338 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 9338 1250 50  0001 C CNN
 F 3 "" H 9300 1400 50  0001 C CNN
 	1    9300 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C16
+L Device:C C16
 U 1 1 5CA1C5D0
 P 9550 1400
 F 0 "C16" H 9500 1300 50  0000 R CNN
 F 1 "100n" H 9550 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9588 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 9588 1250 50  0001 C CNN
 F 3 "" H 9550 1400 50  0001 C CNN
 	1    9550 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C18
+L Device:C C18
 U 1 1 5CA1C5D6
 P 9800 1400
 F 0 "C18" H 9750 1300 50  0000 R CNN
 F 1 "100n" H 9800 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9838 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 9838 1250 50  0001 C CNN
 F 3 "" H 9800 1400 50  0001 C CNN
 	1    9800 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C20
+L Device:C C20
 U 1 1 5CA1C5DC
 P 10050 1400
 F 0 "C20" H 10000 1300 50  0000 R CNN
 F 1 "100n" H 10050 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10088 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 10088 1250 50  0001 C CNN
 F 3 "" H 10050 1400 50  0001 C CNN
 	1    10050 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C22
+L Device:C C22
 U 1 1 5CAEF6C7
 P 10300 1400
 F 0 "C22" H 10250 1300 50  0000 R CNN
 F 1 "100n" H 10300 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10338 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 10338 1250 50  0001 C CNN
 F 3 "" H 10300 1400 50  0001 C CNN
 	1    10300 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C24
+L Device:C C24
 U 1 1 5CAEF6CD
 P 10550 1400
 F 0 "C24" H 10500 1300 50  0000 R CNN
 F 1 "100n" H 10550 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10588 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 10588 1250 50  0001 C CNN
 F 3 "" H 10550 1400 50  0001 C CNN
 	1    10550 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C26
+L Device:C C26
 U 1 1 5CAEF6D3
 P 10800 1400
 F 0 "C26" H 10750 1300 50  0000 R CNN
 F 1 "100n" H 10800 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10838 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 10838 1250 50  0001 C CNN
 F 3 "" H 10800 1400 50  0001 C CNN
 	1    10800 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C28
+L Device:C C28
 U 1 1 5CAEF6D9
 P 11050 1400
 F 0 "C28" H 11000 1300 50  0000 R CNN
 F 1 "100n" H 11050 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 11088 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 11088 1250 50  0001 C CNN
 F 3 "" H 11050 1400 50  0001 C CNN
 	1    11050 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C30
+L Device:C C30
 U 1 1 5CAEF6DF
 P 11300 1400
 F 0 "C30" H 11250 1300 50  0000 R CNN
 F 1 "100n" H 11300 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 11338 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 11338 1250 50  0001 C CNN
 F 3 "" H 11300 1400 50  0001 C CNN
 	1    11300 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C32
+L Device:C C32
 U 1 1 5CAEF6E5
 P 11550 1400
 F 0 "C32" H 11500 1300 50  0000 R CNN
 F 1 "100n" H 11550 1500 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 11588 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 11588 1250 50  0001 C CNN
 F 3 "" H 11550 1400 50  0001 C CNN
 	1    11550 1400
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C7
+L Device:C C7
 U 1 1 5CBC2847
 P 8550 900
 F 0 "C7" H 8500 800 50  0000 R CNN
 F 1 "100n" H 8550 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8588 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 8588 750 50  0001 C CNN
 F 3 "" H 8550 900 50  0001 C CNN
 	1    8550 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C9
+L Device:C C9
 U 1 1 5CBC284D
 P 8800 900
 F 0 "C9" H 8750 800 50  0000 R CNN
 F 1 "100n" H 8800 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8838 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 8838 750 50  0001 C CNN
 F 3 "" H 8800 900 50  0001 C CNN
 	1    8800 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C11
+L Device:C C11
 U 1 1 5CBC2853
 P 9050 900
 F 0 "C11" H 9000 800 50  0000 R CNN
 F 1 "100n" H 9050 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9088 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 9088 750 50  0001 C CNN
 F 3 "" H 9050 900 50  0001 C CNN
 	1    9050 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C13
+L Device:C C13
 U 1 1 5CBC2859
 P 9300 900
 F 0 "C13" H 9250 800 50  0000 R CNN
 F 1 "100n" H 9300 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9338 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 9338 750 50  0001 C CNN
 F 3 "" H 9300 900 50  0001 C CNN
 	1    9300 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C15
+L Device:C C15
 U 1 1 5CBC285F
 P 9550 900
 F 0 "C15" H 9500 800 50  0000 R CNN
 F 1 "100n" H 9550 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9588 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 9588 750 50  0001 C CNN
 F 3 "" H 9550 900 50  0001 C CNN
 	1    9550 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C17
+L Device:C C17
 U 1 1 5CBC2865
 P 9800 900
 F 0 "C17" H 9750 800 50  0000 R CNN
 F 1 "100n" H 9800 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9838 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 9838 750 50  0001 C CNN
 F 3 "" H 9800 900 50  0001 C CNN
 	1    9800 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C19
+L Device:C C19
 U 1 1 5CBC286B
 P 10050 900
 F 0 "C19" H 10000 800 50  0000 R CNN
 F 1 "100n" H 10050 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10088 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 10088 750 50  0001 C CNN
 F 3 "" H 10050 900 50  0001 C CNN
 	1    10050 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C21
+L Device:C C21
 U 1 1 5CBC2871
 P 10300 900
 F 0 "C21" H 10250 800 50  0000 R CNN
 F 1 "100n" H 10300 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10338 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 10338 750 50  0001 C CNN
 F 3 "" H 10300 900 50  0001 C CNN
 	1    10300 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C23
+L Device:C C23
 U 1 1 5CBC2877
 P 10550 900
 F 0 "C23" H 10500 800 50  0000 R CNN
 F 1 "100n" H 10550 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10588 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 10588 750 50  0001 C CNN
 F 3 "" H 10550 900 50  0001 C CNN
 	1    10550 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C25
+L Device:C C25
 U 1 1 5CBC287D
 P 10800 900
 F 0 "C25" H 10750 800 50  0000 R CNN
 F 1 "100n" H 10800 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10838 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 10838 750 50  0001 C CNN
 F 3 "" H 10800 900 50  0001 C CNN
 	1    10800 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C27
+L Device:C C27
 U 1 1 5CBC2883
 P 11050 900
 F 0 "C27" H 11000 800 50  0000 R CNN
 F 1 "100n" H 11050 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 11088 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 11088 750 50  0001 C CNN
 F 3 "" H 11050 900 50  0001 C CNN
 	1    11050 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C29
+L Device:C C29
 U 1 1 5CBC2889
 P 11300 900
 F 0 "C29" H 11250 800 50  0000 R CNN
 F 1 "100n" H 11300 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 11338 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 11338 750 50  0001 C CNN
 F 3 "" H 11300 900 50  0001 C CNN
 	1    11300 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-passives:C C31
+L Device:C C31
 U 1 1 5CBC288F
 P 11550 900
 F 0 "C31" H 11500 800 50  0000 R CNN
 F 1 "100n" H 11550 1000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 11588 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_HandSoldering" H 11588 750 50  0001 C CNN
 F 3 "" H 11550 900 50  0001 C CNN
 	1    11550 900 
 	-1   0    0    1   
@@ -7726,7 +7714,7 @@ U 1 1 604F389B
 P 12850 900
 F 0 "C33" H 12968 946 50  0000 L CNN
 F 1 "CP" H 12968 855 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_4x5.8" H 12888 750 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.8" H 12888 750 50  0001 C CNN
 F 3 "~" H 12850 900 50  0001 C CNN
 	1    12850 900 
 	1    0    0    -1  
@@ -7746,7 +7734,7 @@ U 1 1 607051BF
 P 12850 1400
 F 0 "C34" H 12968 1446 50  0000 L CNN
 F 1 "CP" H 12968 1355 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_4x5.8" H 12888 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.8" H 12888 1250 50  0001 C CNN
 F 3 "~" H 12850 1400 50  0001 C CNN
 	1    12850 1400
 	1    0    0    -1  
@@ -7765,7 +7753,7 @@ U 1 1 6091A08E
 P 13200 650
 F 0 "D65" H 13200 866 50  0000 C CNN
 F 1 "1N5817" H 13200 775 50  0000 C CNN
-F 2 "Diodes_SMD:D_SMB_Handsoldering" H 13200 475 50  0001 C CNN
+F 2 "Diode_SMD:D_SMB_Handsoldering" H 13200 475 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 13200 650 50  0001 C CNN
 	1    13200 650 
 	1    0    0    -1  
@@ -7779,7 +7767,7 @@ U 1 1 60A255A0
 P 13200 1650
 F 0 "D66" H 13200 1434 50  0000 C CNN
 F 1 "1N5817" H 13200 1525 50  0000 C CNN
-F 2 "Diodes_SMD:D_SMB_Handsoldering" H 13200 1475 50  0001 C CNN
+F 2 "Diode_SMD:D_SMB_Handsoldering" H 13200 1475 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 13200 1650 50  0001 C CNN
 	1    13200 1650
 	-1   0    0    1   
@@ -7793,7 +7781,7 @@ U 1 1 60B316F9
 P 13600 650
 F 0 "L1" V 13326 650 50  0000 C CNN
 F 1 "Ferrite_Bead" V 13417 650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13530 650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 13530 650 50  0001 C CNN
 F 3 "~" H 13600 650 50  0001 C CNN
 	1    13600 650 
 	0    1    1    0   
@@ -7804,7 +7792,7 @@ U 1 1 60B31B1F
 P 13600 1650
 F 0 "L2" V 13326 1650 50  0000 C CNN
 F 1 "Ferrite_Bead" V 13417 1650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13530 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_HandSoldering" V 13530 1650 50  0001 C CNN
 F 3 "~" H 13600 1650 50  0001 C CNN
 	1    13600 1650
 	0    1    1    0   
@@ -7918,44 +7906,16 @@ $EndComp
 Wire Wire Line
 	14150 650  14150 750 
 Wire Wire Line
-	14150 750  14350 750 
-Wire Wire Line
 	14150 1650 14150 1550
-Wire Wire Line
-	14150 1550 14350 1550
-Wire Wire Line
-	14350 1350 14250 1350
 Wire Wire Line
 	14250 1350 14250 1150
 Wire Wire Line
 	12850 1150 14250 1150
-Wire Wire Line
-	14350 1150 14250 1150
 Connection ~ 14250 1150
 Wire Wire Line
 	14250 1150 14250 950 
 Wire Wire Line
-	14250 950  14350 950 
-Wire Wire Line
-	15000 750  14350 750 
-Connection ~ 14350 750 
-Wire Wire Line
-	15000 950  14350 950 
-Connection ~ 14350 950 
-Wire Wire Line
-	15000 1150 14350 1150
-Connection ~ 14350 1150
-Wire Wire Line
-	15000 1350 14350 1350
-Connection ~ 14350 1350
-Wire Wire Line
-	15000 1550 14350 1550
-Connection ~ 14350 1550
-Wire Wire Line
-	15000 1150 15250 1150
-Wire Wire Line
 	15250 1150 15250 1250
-Connection ~ 15000 1150
 Text GLabel 5300 1750 1    50   Input ~ 0
 A1
 Text GLabel 5400 1750 1    50   Input ~ 0
@@ -8315,4 +8275,25 @@ Wire Wire Line
 Wire Wire Line
 	6900 18400 7000 18400
 Connection ~ 6900 18400
+Wire Wire Line
+	14150 750  15000 750 
+Wire Wire Line
+	14150 1550 15000 1550
+Wire Wire Line
+	14250 1350 15000 1350
+Wire Wire Line
+	14250 950  15000 950 
+Wire Wire Line
+	14250 1150 15250 1150
+$Comp
+L Diode:1N4148 D1
+U 1 1 5C3E0AD4
+P 9250 4200
+F 0 "D1" V 9296 4121 50  0000 R CNN
+F 1 "1N4148" V 9205 4121 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9250 4025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9250 4200 50  0001 C CNN
+	1    9250 4200
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
